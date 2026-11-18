@@ -1,0 +1,117 @@
+# ---------------------------------------------------------------------------
+# 行尾统一策略 / Line-ending policy
+#
+# 目标：仓库内一律 LF，Windows 专属脚本用 CRLF。
+# 规则写在仓库里，不依赖每台机器的 core.autocrlf 设置。
+#
+# 放入仓库根目录后执行：
+#   git add --renormalize .
+#   git commit -m "chore: normalize line endings"
+# ---------------------------------------------------------------------------
+
+# 默认：文本文件按内容自动判定，入库统一 LF
+* text=auto eol=lf
+
+# 自己也要按文本处理
+.gitattributes text eol=lf
+
+# ---------------------------------------------------------------------------
+# Windows 专属：必须是 CRLF，否则 cmd/powershell 的某些场景会出问题
+# ---------------------------------------------------------------------------
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf
+*.psm1    text eol=crlf
+*.psd1    text eol=crlf
+*.sln     text eol=crlf
+*.csproj  text eol=crlf
+*.vcxproj text eol=crlf
+*.props   text eol=crlf
+*.targets text eol=crlf
+*.rc      text eol=crlf
+
+# ---------------------------------------------------------------------------
+# 源码与配置：显式声明，避免被上层规则漏掉
+# ---------------------------------------------------------------------------
+*.cs      text eol=lf
+*.shader  text eol=lf
+*.hlsl    text eol=lf
+*.cginc   text eol=lf
+*.compute text eol=lf
+*.sh      text eol=lf
+*.json    text eol=lf
+*.md      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.xml     text eol=lf
+*.txt     text eol=lf
+*.csv     text eol=lf
+*.asmdef  text eol=lf
+*.meta    text eol=lf
+*.editorconfig text eol=lf
+
+# ---------------------------------------------------------------------------
+# Unity 序列化资源（YAML）
+#
+# 强制 LF 的好处：Windows 上 Unity 保存时会写 CRLF，但因为提交时被归一化，
+# git diff/status 不会出现"只差行尾"的假修改。合并冲突也不会全是 ^M。
+# ---------------------------------------------------------------------------
+*.unity              text eol=lf
+*.prefab             text eol=lf
+*.asset              text eol=lf
+*.mat                text eol=lf
+*.anim               text eol=lf
+*.controller         text eol=lf
+*.overrideController text eol=lf
+*.physicMaterial     text eol=lf
+*.renderTexture      text eol=lf
+*.lighting           text eol=lf
+*.guiskin            text eol=lf
+*.spriteatlas        text eol=lf
+*.mask               text eol=lf
+*.flare              text eol=lf
+*.fontsettings       text eol=lf
+
+# 可选：启用 Unity 官方的智能合并（需本机配置 UnityYAMLMerge）
+*.unity  merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset  merge=unityyamlmerge
+
+# ---------------------------------------------------------------------------
+# 二进制：禁止任何转换。
+# 不加这些，Git 会试图"修复"所谓行尾，直接损坏文件。
+# ---------------------------------------------------------------------------
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.bmp    binary
+*.psd    binary
+*.tga    binary
+*.tif    binary
+*.tiff   binary
+*.exr    binary
+*.hdr    binary
+*.ico    binary
+*.icns   binary
+*.wav    binary
+*.mp3    binary
+*.ogg    binary
+*.fsb    binary
+*.ttf    binary
+*.otf    binary
+*.woff   binary
+*.woff2  binary
+*.fbx    binary
+*.blend  binary
+*.dll    binary
+*.exe    binary
+*.so     binary
+*.dylib  binary
+*.zip    binary
+*.7z     binary
+*.rar    binary
+*.gz     binary
+*.unitypackage binary
+*.pdf    binary
+*.mp4    binary
