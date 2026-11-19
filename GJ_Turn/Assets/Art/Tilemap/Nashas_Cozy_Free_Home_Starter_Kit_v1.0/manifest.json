@@ -1,0 +1,779 @@
+[
+ {
+  "name": "window_cream_curtains",
+  "category": "living_room",
+  "width": 53,
+  "height": 45,
+  "variants": null
+ },
+ {
+  "name": "framed_landscape_painting",
+  "category": "living_room",
+  "width": 47,
+  "height": 37,
+  "variants": null
+ },
+ {
+  "name": "tall_bookshelf_with_books",
+  "category": "living_room",
+  "width": 64,
+  "height": 105,
+  "variants": "wood"
+ },
+ {
+  "name": "potted_monstera_plant",
+  "category": "living_room",
+  "width": 45,
+  "height": 46,
+  "variants": null
+ },
+ {
+  "name": "three_seat_sofa",
+  "category": "living_room",
+  "width": 111,
+  "height": 49,
+  "variants": "fabric"
+ },
+ {
+  "name": "floor_lamp",
+  "category": "living_room",
+  "width": 38,
+  "height": 95,
+  "variants": null
+ },
+ {
+  "name": "potted_fiddle_leaf_fig",
+  "category": "living_room",
+  "width": 34,
+  "height": 49,
+  "variants": null
+ },
+ {
+  "name": "large_patterned_rug",
+  "category": "living_room",
+  "width": 134,
+  "height": 63,
+  "variants": "fabric"
+ },
+ {
+  "name": "low_coffee_table",
+  "category": "living_room",
+  "width": 91,
+  "height": 49,
+  "variants": "wood"
+ },
+ {
+  "name": "coffee_mug",
+  "category": "living_room",
+  "width": 27,
+  "height": 25,
+  "variants": null
+ },
+ {
+  "name": "stack_of_books",
+  "category": "living_room",
+  "width": 35,
+  "height": 32,
+  "variants": null
+ },
+ {
+  "name": "armchair",
+  "category": "living_room",
+  "width": 59,
+  "height": 60,
+  "variants": "fabric"
+ },
+ {
+  "name": "knitted_pouf",
+  "category": "living_room",
+  "width": 35,
+  "height": 31,
+  "variants": "fabric"
+ },
+ {
+  "name": "basket_of_blankets",
+  "category": "living_room",
+  "width": 53,
+  "height": 48,
+  "variants": null
+ },
+ {
+  "name": "cat_bed",
+  "category": "living_room",
+  "width": 43,
+  "height": 30,
+  "variants": null
+ },
+ {
+  "name": "framed_flower_painting",
+  "category": "bedroom",
+  "width": 41,
+  "height": 40,
+  "variants": null
+ },
+ {
+  "name": "macrame_hanging_plant",
+  "category": "bedroom",
+  "width": 36,
+  "height": 65,
+  "variants": null
+ },
+ {
+  "name": "wardrobe",
+  "category": "bedroom",
+  "width": 71,
+  "height": 105,
+  "variants": "wood"
+ },
+ {
+  "name": "nightstand_with_two_drawers",
+  "category": "bedroom",
+  "width": 46,
+  "height": 52,
+  "variants": "wood"
+ },
+ {
+  "name": "table_lamp",
+  "category": "bedroom",
+  "width": 27,
+  "height": 38,
+  "variants": null
+ },
+ {
+  "name": "vanity_table_with_a_mirror",
+  "category": "bedroom",
+  "width": 53,
+  "height": 63,
+  "variants": "wood"
+ },
+ {
+  "name": "fringed_bedroom_rug",
+  "category": "bedroom",
+  "width": 126,
+  "height": 62,
+  "variants": "fabric"
+ },
+ {
+  "name": "double_bed",
+  "category": "bedroom",
+  "width": 83,
+  "height": 78,
+  "variants": "wood"
+ },
+ {
+  "name": "teddy_bear",
+  "category": "bedroom",
+  "width": 29,
+  "height": 34,
+  "variants": null
+ },
+ {
+  "name": "potted_snake_plant",
+  "category": "bedroom",
+  "width": 30,
+  "height": 48,
+  "variants": null
+ },
+ {
+  "name": "bathtub",
+  "category": "bathroom",
+  "width": 96,
+  "height": 62,
+  "variants": null
+ },
+ {
+  "name": "toilet",
+  "category": "bathroom",
+  "width": 36,
+  "height": 65,
+  "variants": null
+ },
+ {
+  "name": "bathroom_sink_with_a_mirror",
+  "category": "bathroom",
+  "width": 43,
+  "height": 72,
+  "variants": null
+ },
+ {
+  "name": "stack_of_folded_towels",
+  "category": "bathroom",
+  "width": 37,
+  "height": 39,
+  "variants": null
+ },
+ {
+  "name": "rubber_duck",
+  "category": "bathroom",
+  "width": 28,
+  "height": 27,
+  "variants": null
+ },
+ {
+  "name": "soap_pump_bottle",
+  "category": "bathroom",
+  "width": 21,
+  "height": 37,
+  "variants": null
+ },
+ {
+  "name": "toothbrush_cup",
+  "category": "bathroom",
+  "width": 26,
+  "height": 38,
+  "variants": null
+ },
+ {
+  "name": "shampoo_bottle",
+  "category": "bathroom",
+  "width": 19,
+  "height": 41,
+  "variants": null
+ },
+ {
+  "name": "bar_of_soap",
+  "category": "bathroom",
+  "width": 37,
+  "height": 26,
+  "variants": null
+ },
+ {
+  "name": "long_kitchen_window_with_a_flower_box",
+  "category": "kitchen",
+  "width": 62,
+  "height": 44,
+  "variants": null
+ },
+ {
+  "name": "long_wall_shelf_with_mugs_hanging_below",
+  "category": "kitchen",
+  "width": 71,
+  "height": 38,
+  "variants": null
+ },
+ {
+  "name": "grandfather_style_kitchen_clock",
+  "category": "kitchen",
+  "width": 28,
+  "height": 85,
+  "variants": null
+ },
+ {
+  "name": "tall_cream_refrigerator_with_rounded_corners",
+  "category": "kitchen",
+  "width": 41,
+  "height": 81,
+  "variants": null
+ },
+ {
+  "name": "kitchen_counter_with_a_white_ceramic_sink",
+  "category": "kitchen",
+  "width": 66,
+  "height": 44,
+  "variants": "wood"
+ },
+ {
+  "name": "kitchen_counter_with_a_four_burner_stove_top",
+  "category": "kitchen",
+  "width": 71,
+  "height": 34,
+  "variants": "wood"
+ },
+ {
+  "name": "long_wooden_kitchen_counter_with_drawers",
+  "category": "kitchen",
+  "width": 67,
+  "height": 33,
+  "variants": "wood"
+ },
+ {
+  "name": "tall_kitchen_hutch_with_plates_on_its_open_shelves",
+  "category": "kitchen",
+  "width": 45,
+  "height": 80,
+  "variants": null
+ },
+ {
+  "name": "brick_bread_oven_built_into_a_wall_with_an_arched_opening",
+  "category": "kitchen",
+  "width": 49,
+  "height": 83,
+  "variants": null
+ },
+ {
+  "name": "tall_potted_herb_stand_with_three_shelves_of_herbs",
+  "category": "kitchen",
+  "width": 45,
+  "height": 87,
+  "variants": null
+ },
+ {
+  "name": "whistling_tea_kettle",
+  "category": "kitchen",
+  "width": 33,
+  "height": 34,
+  "variants": null
+ },
+ {
+  "name": "toaster_with_toast_popping_up",
+  "category": "kitchen",
+  "width": 30,
+  "height": 33,
+  "variants": null
+ },
+ {
+  "name": "bread_bin",
+  "category": "kitchen",
+  "width": 36,
+  "height": 26,
+  "variants": null
+ },
+ {
+  "name": "rag_rug_for_the_kitchen_floor",
+  "category": "kitchen",
+  "width": 68,
+  "height": 28,
+  "variants": "fabric"
+ },
+ {
+  "name": "wooden_kitchen_island_with_a_butcher_block_top",
+  "category": "kitchen",
+  "width": 56,
+  "height": 39,
+  "variants": "wood"
+ },
+ {
+  "name": "small_round_wooden_table",
+  "category": "kitchen",
+  "width": 44,
+  "height": 37,
+  "variants": "wood"
+ },
+ {
+  "name": "wooden_chair_with_a_gingham_seat_cushion",
+  "category": "kitchen",
+  "width": 32,
+  "height": 44,
+  "variants": "fabric"
+ },
+ {
+  "name": "wooden_kitchen_chair",
+  "category": "kitchen",
+  "width": 29,
+  "height": 43,
+  "variants": "wood"
+ },
+ {
+  "name": "pet_bowl_pair_on_a_small_mat",
+  "category": "kitchen",
+  "width": 64,
+  "height": 24,
+  "variants": null
+ },
+ {
+  "name": "big_wicker_picnic_hamper",
+  "category": "kitchen",
+  "width": 46,
+  "height": 43,
+  "variants": null
+ },
+ {
+  "name": "tall_milk_churn",
+  "category": "kitchen",
+  "width": 37,
+  "height": 68,
+  "variants": null
+ },
+ {
+  "name": "bowl_of_cake_batter",
+  "category": "food",
+  "width": 28,
+  "height": 25,
+  "variants": null
+ },
+ {
+  "name": "ball_of_bread_dough",
+  "category": "food",
+  "width": 25,
+  "height": 21,
+  "variants": null
+ },
+ {
+  "name": "big_birthday_cake_with_candles",
+  "category": "food",
+  "width": 40,
+  "height": 35,
+  "variants": null
+ },
+ {
+  "name": "wooden_crate_of_apples",
+  "category": "food",
+  "width": 44,
+  "height": 39,
+  "variants": null
+ },
+ {
+  "name": "sack_of_potatoes",
+  "category": "food",
+  "width": 44,
+  "height": 44,
+  "variants": null
+ },
+ {
+  "name": "barrel_of_pickles",
+  "category": "food",
+  "width": 35,
+  "height": 44,
+  "variants": null
+ },
+ {
+  "name": "sack_of_flour_with_a_scoop",
+  "category": "food",
+  "width": 42,
+  "height": 45,
+  "variants": null
+ },
+ {
+  "name": "small_cottage_with_a_golden_thatched_roof_a_chimney_and_a_wooden_door",
+  "category": "garden_and_outside",
+  "width": 107,
+  "height": 92,
+  "variants": null
+ },
+ {
+  "name": "wooden_garden_shed_with_a_small_window",
+  "category": "garden_and_outside",
+  "width": 68,
+  "height": 65,
+  "variants": "wood"
+ },
+ {
+  "name": "small_glass_greenhouse_drawn_opaque_in_light_blue_tones",
+  "category": "garden_and_outside",
+  "width": 73,
+  "height": 68,
+  "variants": null
+ },
+ {
+  "name": "wooden_rail_fence_section",
+  "category": "garden_and_outside",
+  "width": 68,
+  "height": 32,
+  "variants": "wood"
+ },
+ {
+  "name": "wooden_rail_fence_gate",
+  "category": "garden_and_outside",
+  "width": 65,
+  "height": 36,
+  "variants": "wood"
+ },
+ {
+  "name": "wooden_rain_barrel_under_a_drainpipe",
+  "category": "garden_and_outside",
+  "width": 63,
+  "height": 72,
+  "variants": "wood"
+ },
+ {
+  "name": "stone_well_with_a_wooden_roof_and_a_bucket",
+  "category": "garden_and_outside",
+  "width": 63,
+  "height": 71,
+  "variants": null
+ },
+ {
+  "name": "clothesline_with_colourful_laundry",
+  "category": "garden_and_outside",
+  "width": 70,
+  "height": 38,
+  "variants": null
+ },
+ {
+  "name": "birdhouse_on_a_tall_wooden_pole",
+  "category": "garden_and_outside",
+  "width": 26,
+  "height": 68,
+  "variants": "wood"
+ },
+ {
+  "name": "stack_of_three_terracotta_pots",
+  "category": "garden_and_outside",
+  "width": 21,
+  "height": 35,
+  "variants": null
+ },
+ {
+  "name": "garden_gnome_holding_a_lantern",
+  "category": "garden_and_outside",
+  "width": 34,
+  "height": 43,
+  "variants": null
+ },
+ {
+  "name": "bird_feeder_with_seeds",
+  "category": "garden_and_outside",
+  "width": 37,
+  "height": 35,
+  "variants": null
+ },
+ {
+  "name": "basket_of_apples",
+  "category": "garden_and_outside",
+  "width": 36,
+  "height": 29,
+  "variants": null
+ },
+ {
+  "name": "small_watering_can",
+  "category": "garden_and_outside",
+  "width": 34,
+  "height": 28,
+  "variants": null
+ },
+ {
+  "name": "garden_rake",
+  "category": "garden_and_outside",
+  "width": 27,
+  "height": 36,
+  "variants": null
+ },
+ {
+  "name": "wooden_bench_with_a_cream_canvas_seat",
+  "category": "garden_and_outside",
+  "width": 69,
+  "height": 36,
+  "variants": "fabric"
+ },
+ {
+  "name": "sleeping_cat_curled_up",
+  "category": "garden_and_outside",
+  "width": 39,
+  "height": 26,
+  "variants": null
+ },
+ {
+  "name": "little_hedgehog",
+  "category": "garden_and_outside",
+  "width": 33,
+  "height": 29,
+  "variants": null
+ },
+ {
+  "name": "potted_daisy",
+  "category": "garden_and_outside",
+  "width": 27,
+  "height": 36,
+  "variants": null
+ },
+ {
+  "name": "small_apple_tree_with_red_apples",
+  "category": "garden_and_outside",
+  "width": 46,
+  "height": 70,
+  "variants": null
+ },
+ {
+  "name": "lilac_bush_in_bloom",
+  "category": "garden_and_outside",
+  "width": 44,
+  "height": 54,
+  "variants": null
+ },
+ {
+  "name": "bag_of_soil",
+  "category": "garden_and_outside",
+  "width": 34,
+  "height": 41,
+  "variants": null
+ },
+ {
+  "name": "pinwheel_on_a_stick",
+  "category": "garden_and_outside",
+  "width": 30,
+  "height": 40,
+  "variants": null
+ },
+ {
+  "name": "round_flower_bed_with_daisies",
+  "category": "garden_and_outside",
+  "width": 60,
+  "height": 39,
+  "variants": null
+ },
+ {
+  "name": "long_raised_flower_bed_with_tulips",
+  "category": "garden_and_outside",
+  "width": 72,
+  "height": 31,
+  "variants": null
+ },
+ {
+  "name": "potted_fern",
+  "category": "decor",
+  "width": 45,
+  "height": 41,
+  "variants": null
+ },
+ {
+  "name": "potted_succulent",
+  "category": "decor",
+  "width": 27,
+  "height": 37,
+  "variants": null
+ },
+ {
+  "name": "trio_of_succulents",
+  "category": "decor",
+  "width": 44,
+  "height": 29,
+  "variants": null
+ },
+ {
+  "name": "vase_of_daisies",
+  "category": "decor",
+  "width": 32,
+  "height": 42,
+  "variants": null
+ },
+ {
+  "name": "vase_with_sunflowers",
+  "category": "decor",
+  "width": 31,
+  "height": 44,
+  "variants": null
+ },
+ {
+  "name": "small_bonsai_tree",
+  "category": "decor",
+  "width": 42,
+  "height": 43,
+  "variants": null
+ },
+ {
+  "name": "large_vase_with_pampas_grass",
+  "category": "decor",
+  "width": 45,
+  "height": 60,
+  "variants": null
+ },
+ {
+  "name": "watering_can",
+  "category": "decor",
+  "width": 55,
+  "height": 39,
+  "variants": null
+ },
+ {
+  "name": "round_wall_clock",
+  "category": "decor",
+  "width": 39,
+  "height": 39,
+  "variants": null
+ },
+ {
+  "name": "round_wall_mirror",
+  "category": "decor",
+  "width": 44,
+  "height": 45,
+  "variants": null
+ },
+ {
+  "name": "wall_shelf_with_plants",
+  "category": "decor",
+  "width": 55,
+  "height": 43,
+  "variants": null
+ },
+ {
+  "name": "round_braided_rug",
+  "category": "decor",
+  "width": 117,
+  "height": 76,
+  "variants": "fabric"
+ },
+ {
+  "name": "hallway_runner_rug",
+  "category": "decor",
+  "width": 134,
+  "height": 38,
+  "variants": "fabric"
+ },
+ {
+  "name": "candle_lantern",
+  "category": "decor",
+  "width": 25,
+  "height": 45,
+  "variants": null
+ },
+ {
+  "name": "ceramic_vase",
+  "category": "decor",
+  "width": 26,
+  "height": 41,
+  "variants": null
+ },
+ {
+  "name": "framed_photo",
+  "category": "decor",
+  "width": 35,
+  "height": 31,
+  "variants": null
+ },
+ {
+  "name": "scented_candle_in_a_jar",
+  "category": "decor",
+  "width": 27,
+  "height": 37,
+  "variants": null
+ },
+ {
+  "name": "tiny_cuckoo_clock",
+  "category": "decor",
+  "width": 33,
+  "height": 48,
+  "variants": null
+ },
+ {
+  "name": "dog_bed",
+  "category": "decor",
+  "width": 45,
+  "height": 31,
+  "variants": null
+ },
+ {
+  "name": "pet_food_and_water_bowl",
+  "category": "decor",
+  "width": 48,
+  "height": 23,
+  "variants": null
+ },
+ {
+  "name": "cat_scratching_post",
+  "category": "decor",
+  "width": 32,
+  "height": 50,
+  "variants": null
+ },
+ {
+  "name": "wicker_laundry_basket",
+  "category": "decor",
+  "width": 41,
+  "height": 38,
+  "variants": null
+ },
+ {
+  "name": "broom",
+  "category": "decor",
+  "width": 21,
+  "height": 53,
+  "variants": null
+ },
+ {
+  "name": "umbrella_stand",
+  "category": "decor",
+  "width": 24,
+  "height": 50,
+  "variants": null
+ }
+]

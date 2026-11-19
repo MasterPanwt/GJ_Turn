@@ -1,0 +1,375 @@
+{
+  "frames": {
+    "armchair": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "basket_of_blankets": {
+      "frame": {
+        "h": 48,
+        "w": 53,
+        "x": 189,
+        "y": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 53,
+        "x": 45,
+        "y": 96
+      },
+      "trimmed": true
+    },
+    "cat_bed": {
+      "frame": {
+        "h": 30,
+        "w": 43,
+        "x": 338,
+        "y": 114
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 30,
+        "w": 43,
+        "x": 50,
+        "y": 114
+      },
+      "trimmed": true
+    },
+    "coffee_mug": {
+      "frame": {
+        "h": 25,
+        "w": 27,
+        "x": 490,
+        "y": 119
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 25,
+        "w": 27,
+        "x": 58,
+        "y": 119
+      },
+      "trimmed": true
+    },
+    "floor_lamp": {
+      "frame": {
+        "h": 95,
+        "w": 38,
+        "x": 629,
+        "y": 49
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 95,
+        "w": 38,
+        "x": 53,
+        "y": 49
+      },
+      "trimmed": true
+    },
+    "framed_landscape_painting": {
+      "frame": {
+        "h": 37,
+        "w": 47,
+        "x": 768,
+        "y": 107
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 37,
+        "w": 47,
+        "x": 48,
+        "y": 107
+      },
+      "trimmed": true
+    },
+    "knitted_pouf": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 918,
+        "y": 113
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 1013,
+        "y": 81
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "low_coffee_table": {
+      "frame": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "potted_fiddle_leaf_fig": {
+      "frame": {
+        "h": 49,
+        "w": 34,
+        "x": 199,
+        "y": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 34,
+        "x": 55,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "potted_monstera_plant": {
+      "frame": {
+        "h": 46,
+        "w": 45,
+        "x": 337,
+        "y": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 46,
+        "w": 45,
+        "x": 49,
+        "y": 98
+      },
+      "trimmed": true
+    },
+    "stack_of_books": {
+      "frame": {
+        "h": 32,
+        "w": 35,
+        "x": 486,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 32,
+        "w": 35,
+        "x": 54,
+        "y": 112
+      },
+      "trimmed": true
+    },
+    "tall_bookshelf_with_books": {
+      "frame": {
+        "h": 105,
+        "w": 64,
+        "x": 616,
+        "y": 183
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 39
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 736,
+        "y": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "window_cream_curtains": {
+      "frame": {
+        "h": 45,
+        "w": 53,
+        "x": 909,
+        "y": 243
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 45,
+        "w": 53,
+        "x": 45,
+        "y": 99
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/living_room.png",
+    "scale": "1",
+    "size": {
+      "h": 288,
+      "w": 1152
+    },
+    "version": "1.0"
+  }
+}

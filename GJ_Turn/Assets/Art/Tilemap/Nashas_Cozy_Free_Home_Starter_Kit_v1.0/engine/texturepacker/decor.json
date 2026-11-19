@@ -1,0 +1,591 @@
+{
+  "frames": {
+    "broom": {
+      "frame": {
+        "h": 53,
+        "w": 21,
+        "x": 61,
+        "y": 91
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 53,
+        "w": 21,
+        "x": 61,
+        "y": 91
+      },
+      "trimmed": true
+    },
+    "candle_lantern": {
+      "frame": {
+        "h": 45,
+        "w": 25,
+        "x": 203,
+        "y": 99
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 45,
+        "w": 25,
+        "x": 59,
+        "y": 99
+      },
+      "trimmed": true
+    },
+    "cat_scratching_post": {
+      "frame": {
+        "h": 50,
+        "w": 32,
+        "x": 344,
+        "y": 94
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 50,
+        "w": 32,
+        "x": 56,
+        "y": 94
+      },
+      "trimmed": true
+    },
+    "ceramic_vase": {
+      "frame": {
+        "h": 41,
+        "w": 26,
+        "x": 491,
+        "y": 103
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 41,
+        "w": 26,
+        "x": 59,
+        "y": 103
+      },
+      "trimmed": true
+    },
+    "dog_bed": {
+      "frame": {
+        "h": 31,
+        "w": 45,
+        "x": 625,
+        "y": 113
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 45,
+        "x": 49,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "framed_photo": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 774,
+        "y": 113
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "hallway_runner_rug": {
+      "frame": {
+        "h": 38,
+        "w": 134,
+        "x": 869,
+        "y": 106
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 134,
+        "x": 5,
+        "y": 106
+      },
+      "trimmed": true
+    },
+    "large_vase_with_pampas_grass": {
+      "frame": {
+        "h": 60,
+        "w": 45,
+        "x": 1057,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 45,
+        "x": 49,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "pet_food_and_water_bowl": {
+      "frame": {
+        "h": 23,
+        "w": 48,
+        "x": 48,
+        "y": 265
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 23,
+        "w": 48,
+        "x": 48,
+        "y": 121
+      },
+      "trimmed": true
+    },
+    "potted_fern": {
+      "frame": {
+        "h": 41,
+        "w": 45,
+        "x": 193,
+        "y": 247
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 41,
+        "w": 45,
+        "x": 49,
+        "y": 103
+      },
+      "trimmed": true
+    },
+    "potted_succulent": {
+      "frame": {
+        "h": 37,
+        "w": 27,
+        "x": 346,
+        "y": 251
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 37,
+        "w": 27,
+        "x": 58,
+        "y": 107
+      },
+      "trimmed": true
+    },
+    "round_braided_rug": {
+      "frame": {
+        "h": 76,
+        "w": 117,
+        "x": 445,
+        "y": 212
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 76,
+        "w": 117,
+        "x": 13,
+        "y": 68
+      },
+      "trimmed": true
+    },
+    "round_wall_clock": {
+      "frame": {
+        "h": 39,
+        "w": 39,
+        "x": 628,
+        "y": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 39,
+        "x": 52,
+        "y": 105
+      },
+      "trimmed": true
+    },
+    "round_wall_mirror": {
+      "frame": {
+        "h": 45,
+        "w": 44,
+        "x": 770,
+        "y": 243
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 45,
+        "w": 44,
+        "x": 50,
+        "y": 99
+      },
+      "trimmed": true
+    },
+    "scented_candle_in_a_jar": {
+      "frame": {
+        "h": 37,
+        "w": 27,
+        "x": 922,
+        "y": 251
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 37,
+        "w": 27,
+        "x": 58,
+        "y": 107
+      },
+      "trimmed": true
+    },
+    "small_bonsai_tree": {
+      "frame": {
+        "h": 43,
+        "w": 42,
+        "x": 1059,
+        "y": 245
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 43,
+        "w": 42,
+        "x": 51,
+        "y": 101
+      },
+      "trimmed": true
+    },
+    "tiny_cuckoo_clock": {
+      "frame": {
+        "h": 48,
+        "w": 33,
+        "x": 55,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 33,
+        "x": 55,
+        "y": 96
+      },
+      "trimmed": true
+    },
+    "trio_of_succulents": {
+      "frame": {
+        "h": 29,
+        "w": 44,
+        "x": 194,
+        "y": 403
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 29,
+        "w": 44,
+        "x": 50,
+        "y": 115
+      },
+      "trimmed": true
+    },
+    "umbrella_stand": {
+      "frame": {
+        "h": 50,
+        "w": 24,
+        "x": 348,
+        "y": 382
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 50,
+        "w": 24,
+        "x": 60,
+        "y": 94
+      },
+      "trimmed": true
+    },
+    "vase_of_daisies": {
+      "frame": {
+        "h": 42,
+        "w": 32,
+        "x": 488,
+        "y": 390
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 42,
+        "w": 32,
+        "x": 56,
+        "y": 102
+      },
+      "trimmed": true
+    },
+    "vase_with_sunflowers": {
+      "frame": {
+        "h": 44,
+        "w": 31,
+        "x": 632,
+        "y": 388
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 31,
+        "x": 56,
+        "y": 100
+      },
+      "trimmed": true
+    },
+    "wall_shelf_with_plants": {
+      "frame": {
+        "h": 43,
+        "w": 55,
+        "x": 764,
+        "y": 389
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 43,
+        "w": 55,
+        "x": 44,
+        "y": 101
+      },
+      "trimmed": true
+    },
+    "watering_can": {
+      "frame": {
+        "h": 39,
+        "w": 55,
+        "x": 908,
+        "y": 393
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 55,
+        "x": 44,
+        "y": 105
+      },
+      "trimmed": true
+    },
+    "wicker_laundry_basket": {
+      "frame": {
+        "h": 38,
+        "w": 41,
+        "x": 1059,
+        "y": 394
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 41,
+        "x": 51,
+        "y": 106
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/decor.png",
+    "scale": "1",
+    "size": {
+      "h": 432,
+      "w": 1152
+    },
+    "version": "1.0"
+  }
+}

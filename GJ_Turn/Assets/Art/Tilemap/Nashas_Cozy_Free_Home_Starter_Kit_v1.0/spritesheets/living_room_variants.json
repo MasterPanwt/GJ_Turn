@@ -1,0 +1,198 @@
+{
+ "cell": 144,
+ "columns": 8,
+ "sprites": {
+  "armchair__baby_blue": {
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "armchair__charcoal": {
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "armchair__lavender": {
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "armchair__mustard": {
+   "x": 432,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "armchair__purple": {
+   "x": 576,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "armchair__turquoise": {
+   "x": 720,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__baby_blue": {
+   "x": 864,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__burgundy": {
+   "x": 1008,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__green": {
+   "x": 0,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__navy": {
+   "x": 144,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__red": {
+   "x": 288,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf__turquoise": {
+   "x": 432,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__baby_blue": {
+   "x": 576,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__burgundy": {
+   "x": 720,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__green": {
+   "x": 864,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__navy": {
+   "x": 1008,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__sage": {
+   "x": 0,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug__yellow": {
+   "x": 144,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "low_coffee_table__black_paint": {
+   "x": 288,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "low_coffee_table__cherry": {
+   "x": 432,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "low_coffee_table__sage_paint": {
+   "x": 576,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "low_coffee_table__white_paint": {
+   "x": 720,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "tall_bookshelf_with_books__black_paint": {
+   "x": 864,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "tall_bookshelf_with_books__cherry": {
+   "x": 1008,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "tall_bookshelf_with_books__sage_paint": {
+   "x": 0,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "tall_bookshelf_with_books__white_paint": {
+   "x": 144,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__baby_blue": {
+   "x": 288,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__charcoal": {
+   "x": 432,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__lavender": {
+   "x": 576,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__pink": {
+   "x": 720,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__sage": {
+   "x": 864,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa__turquoise": {
+   "x": 1008,
+   "y": 432,
+   "w": 144,
+   "h": 144
+  }
+ }
+}

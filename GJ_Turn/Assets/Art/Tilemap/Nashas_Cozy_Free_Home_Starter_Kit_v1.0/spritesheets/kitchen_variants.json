@@ -1,0 +1,222 @@
+{
+ "cell": 80,
+ "columns": 8,
+ "sprites": {
+  "kitchen_counter_with_a_four_burner_stove_top__black_paint": {
+   "x": 0,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_four_burner_stove_top__cherry": {
+   "x": 80,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_four_burner_stove_top__sage_paint": {
+   "x": 160,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_four_burner_stove_top__white_paint": {
+   "x": 240,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_white_ceramic_sink__black_paint": {
+   "x": 320,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_white_ceramic_sink__cherry": {
+   "x": 400,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_white_ceramic_sink__sage_paint": {
+   "x": 480,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "kitchen_counter_with_a_white_ceramic_sink__white_paint": {
+   "x": 560,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "long_wooden_kitchen_counter_with_drawers__black_paint": {
+   "x": 0,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "long_wooden_kitchen_counter_with_drawers__cherry": {
+   "x": 80,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "long_wooden_kitchen_counter_with_drawers__sage_paint": {
+   "x": 160,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "long_wooden_kitchen_counter_with_drawers__white_paint": {
+   "x": 240,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__baby_blue": {
+   "x": 320,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__burgundy": {
+   "x": 400,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__green": {
+   "x": 480,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__navy": {
+   "x": 560,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__red": {
+   "x": 0,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "rag_rug_for_the_kitchen_floor__turquoise": {
+   "x": 80,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "small_round_wooden_table__black_paint": {
+   "x": 160,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "small_round_wooden_table__cherry": {
+   "x": 240,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "small_round_wooden_table__sage_paint": {
+   "x": 320,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "small_round_wooden_table__white_paint": {
+   "x": 400,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__baby_blue": {
+   "x": 480,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__burgundy": {
+   "x": 560,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__green": {
+   "x": 0,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__navy": {
+   "x": 80,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__red": {
+   "x": 160,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_chair_with_a_gingham_seat_cushion__turquoise": {
+   "x": 240,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_chair__black_paint": {
+   "x": 320,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_chair__cherry": {
+   "x": 400,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_chair__sage_paint": {
+   "x": 480,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_chair__white_paint": {
+   "x": 560,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_island_with_a_butcher_block_top__black_paint": {
+   "x": 0,
+   "y": 320,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_island_with_a_butcher_block_top__cherry": {
+   "x": 80,
+   "y": 320,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_island_with_a_butcher_block_top__sage_paint": {
+   "x": 160,
+   "y": 320,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_kitchen_island_with_a_butcher_block_top__white_paint": {
+   "x": 240,
+   "y": 320,
+   "w": 80,
+   "h": 80
+  }
+ }
+}

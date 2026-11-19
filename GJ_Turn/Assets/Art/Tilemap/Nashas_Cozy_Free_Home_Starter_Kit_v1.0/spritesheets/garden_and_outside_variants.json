@@ -1,0 +1,162 @@
+{
+ "cell": 80,
+ "columns": 8,
+ "sprites": {
+  "birdhouse_on_a_tall_wooden_pole__black_paint": {
+   "x": 0,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "birdhouse_on_a_tall_wooden_pole__cherry": {
+   "x": 80,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "birdhouse_on_a_tall_wooden_pole__sage_paint": {
+   "x": 160,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "birdhouse_on_a_tall_wooden_pole__white_paint": {
+   "x": 240,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__baby_blue": {
+   "x": 320,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__burgundy": {
+   "x": 400,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__green": {
+   "x": 480,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__navy": {
+   "x": 560,
+   "y": 0,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__red": {
+   "x": 0,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_bench_with_a_cream_canvas_seat__turquoise": {
+   "x": 80,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_garden_shed_with_a_small_window__black_paint": {
+   "x": 160,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_garden_shed_with_a_small_window__cherry": {
+   "x": 240,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_garden_shed_with_a_small_window__sage_paint": {
+   "x": 320,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_garden_shed_with_a_small_window__white_paint": {
+   "x": 400,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_gate__black_paint": {
+   "x": 480,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_gate__cherry": {
+   "x": 560,
+   "y": 80,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_gate__sage_paint": {
+   "x": 0,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_gate__white_paint": {
+   "x": 80,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_section__black_paint": {
+   "x": 160,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_section__cherry": {
+   "x": 240,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_section__sage_paint": {
+   "x": 320,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rail_fence_section__white_paint": {
+   "x": 400,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rain_barrel_under_a_drainpipe__black_paint": {
+   "x": 480,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rain_barrel_under_a_drainpipe__cherry": {
+   "x": 560,
+   "y": 160,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rain_barrel_under_a_drainpipe__sage_paint": {
+   "x": 0,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  },
+  "wooden_rain_barrel_under_a_drainpipe__white_paint": {
+   "x": 80,
+   "y": 240,
+   "w": 80,
+   "h": 80
+  }
+ }
+}

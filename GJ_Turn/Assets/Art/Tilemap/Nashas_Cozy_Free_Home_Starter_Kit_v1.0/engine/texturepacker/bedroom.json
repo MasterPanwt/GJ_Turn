@@ -1,0 +1,255 @@
+{
+  "frames": {
+    "double_bed": {
+      "frame": {
+        "h": 78,
+        "w": 83,
+        "x": 22,
+        "y": 50
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 78,
+        "w": 83,
+        "x": 22,
+        "y": 50
+      },
+      "trimmed": true
+    },
+    "framed_flower_painting": {
+      "frame": {
+        "h": 40,
+        "w": 41,
+        "x": 171,
+        "y": 88
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 40,
+        "w": 41,
+        "x": 43,
+        "y": 88
+      },
+      "trimmed": true
+    },
+    "fringed_bedroom_rug": {
+      "frame": {
+        "h": 62,
+        "w": 126,
+        "x": 257,
+        "y": 66
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 62,
+        "w": 126,
+        "x": 1,
+        "y": 66
+      },
+      "trimmed": true
+    },
+    "macrame_hanging_plant": {
+      "frame": {
+        "h": 65,
+        "w": 36,
+        "x": 430,
+        "y": 63
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 65,
+        "w": 36,
+        "x": 46,
+        "y": 63
+      },
+      "trimmed": true
+    },
+    "nightstand_with_two_drawers": {
+      "frame": {
+        "h": 52,
+        "w": 46,
+        "x": 553,
+        "y": 76
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 52,
+        "w": 46,
+        "x": 41,
+        "y": 76
+      },
+      "trimmed": true
+    },
+    "potted_snake_plant": {
+      "frame": {
+        "h": 48,
+        "w": 30,
+        "x": 689,
+        "y": 80
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 30,
+        "x": 49,
+        "y": 80
+      },
+      "trimmed": true
+    },
+    "table_lamp": {
+      "frame": {
+        "h": 38,
+        "w": 27,
+        "x": 818,
+        "y": 90
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 27,
+        "x": 50,
+        "y": 90
+      },
+      "trimmed": true
+    },
+    "teddy_bear": {
+      "frame": {
+        "h": 34,
+        "w": 29,
+        "x": 945,
+        "y": 94
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 29,
+        "x": 49,
+        "y": 94
+      },
+      "trimmed": true
+    },
+    "vanity_table_with_a_mirror": {
+      "frame": {
+        "h": 63,
+        "w": 53,
+        "x": 37,
+        "y": 193
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 53,
+        "x": 37,
+        "y": 65
+      },
+      "trimmed": true
+    },
+    "wardrobe": {
+      "frame": {
+        "h": 105,
+        "w": 71,
+        "x": 156,
+        "y": 151
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 128,
+        "w": 128
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 71,
+        "x": 28,
+        "y": 23
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/bedroom.png",
+    "scale": "1",
+    "size": {
+      "h": 256,
+      "w": 1024
+    },
+    "version": "1.0"
+  }
+}

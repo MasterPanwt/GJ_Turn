@@ -1,0 +1,156 @@
+{
+ "cell": 112,
+ "columns": 8,
+ "sprites": {
+  "bag_of_soil": {
+   "x": 0,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "basket_of_apples": {
+   "x": 112,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "bird_feeder_with_seeds": {
+   "x": 224,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "birdhouse_on_a_tall_wooden_pole": {
+   "x": 336,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "clothesline_with_colourful_laundry": {
+   "x": 448,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "garden_gnome_holding_a_lantern": {
+   "x": 560,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "garden_rake": {
+   "x": 672,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "lilac_bush_in_bloom": {
+   "x": 784,
+   "y": 0,
+   "w": 112,
+   "h": 112
+  },
+  "little_hedgehog": {
+   "x": 0,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "long_raised_flower_bed_with_tulips": {
+   "x": 112,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "pinwheel_on_a_stick": {
+   "x": 224,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "potted_daisy": {
+   "x": 336,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "round_flower_bed_with_daisies": {
+   "x": 448,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "sleeping_cat_curled_up": {
+   "x": 560,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "small_apple_tree_with_red_apples": {
+   "x": 672,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "small_cottage_with_a_golden_thatched_roof_a_chimney_and_a_wooden_door": {
+   "x": 784,
+   "y": 112,
+   "w": 112,
+   "h": 112
+  },
+  "small_glass_greenhouse_drawn_opaque_in_light_blue_tones": {
+   "x": 0,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "small_watering_can": {
+   "x": 112,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "stack_of_three_terracotta_pots": {
+   "x": 224,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "stone_well_with_a_wooden_roof_and_a_bucket": {
+   "x": 336,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "wooden_bench_with_a_cream_canvas_seat": {
+   "x": 448,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "wooden_garden_shed_with_a_small_window": {
+   "x": 560,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "wooden_rail_fence_gate": {
+   "x": 672,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "wooden_rail_fence_section": {
+   "x": 784,
+   "y": 224,
+   "w": 112,
+   "h": 112
+  },
+  "wooden_rain_barrel_under_a_drainpipe": {
+   "x": 0,
+   "y": 336,
+   "w": 112,
+   "h": 112
+  }
+ }
+}

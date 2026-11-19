@@ -1,0 +1,12 @@
+0 -> front_lawn_to_flower_bed_soil_e.png
+1 -> front_lawn_to_flower_bed_soil_ine.png
+2 -> front_lawn_to_flower_bed_soil_inw.png
+3 -> front_lawn_to_flower_bed_soil_ise.png
+4 -> front_lawn_to_flower_bed_soil_isw.png
+5 -> front_lawn_to_flower_bed_soil_n.png
+6 -> front_lawn_to_flower_bed_soil_ne.png
+7 -> front_lawn_to_flower_bed_soil_nw.png
+8 -> front_lawn_to_flower_bed_soil_s.png
+9 -> front_lawn_to_flower_bed_soil_se.png
+10 -> front_lawn_to_flower_bed_soil_sw.png
+11 -> front_lawn_to_flower_bed_soil_w.png

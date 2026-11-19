@@ -1,0 +1,4 @@
+0 -> cream_plaster_wall.png
+1 -> sage_subway_tiles.png
+2 -> wallpaper_cream_stripes.png
+3 -> wallpaper_sage_stripes.png

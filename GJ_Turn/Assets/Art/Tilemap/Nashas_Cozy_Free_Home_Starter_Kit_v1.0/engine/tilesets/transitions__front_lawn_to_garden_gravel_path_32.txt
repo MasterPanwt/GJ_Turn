@@ -1,0 +1,12 @@
+0 -> front_lawn_to_garden_gravel_path_e.png
+1 -> front_lawn_to_garden_gravel_path_ine.png
+2 -> front_lawn_to_garden_gravel_path_inw.png
+3 -> front_lawn_to_garden_gravel_path_ise.png
+4 -> front_lawn_to_garden_gravel_path_isw.png
+5 -> front_lawn_to_garden_gravel_path_n.png
+6 -> front_lawn_to_garden_gravel_path_ne.png
+7 -> front_lawn_to_garden_gravel_path_nw.png
+8 -> front_lawn_to_garden_gravel_path_s.png
+9 -> front_lawn_to_garden_gravel_path_se.png
+10 -> front_lawn_to_garden_gravel_path_sw.png
+11 -> front_lawn_to_garden_gravel_path_w.png

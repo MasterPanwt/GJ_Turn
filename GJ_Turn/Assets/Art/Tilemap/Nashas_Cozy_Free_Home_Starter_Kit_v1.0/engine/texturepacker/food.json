@@ -1,0 +1,183 @@
+{
+  "frames": {
+    "ball_of_bread_dough": {
+      "frame": {
+        "h": 21,
+        "w": 25,
+        "x": 11,
+        "y": 27
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 21,
+        "w": 25,
+        "x": 11,
+        "y": 27
+      },
+      "trimmed": true
+    },
+    "barrel_of_pickles": {
+      "frame": {
+        "h": 44,
+        "w": 35,
+        "x": 54,
+        "y": 4
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 35,
+        "x": 6,
+        "y": 4
+      },
+      "trimmed": true
+    },
+    "big_birthday_cake_with_candles": {
+      "frame": {
+        "h": 35,
+        "w": 40,
+        "x": 100,
+        "y": 13
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 35,
+        "w": 40,
+        "x": 4,
+        "y": 13
+      },
+      "trimmed": true
+    },
+    "bowl_of_cake_batter": {
+      "frame": {
+        "h": 25,
+        "w": 28,
+        "x": 154,
+        "y": 23
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 25,
+        "w": 28,
+        "x": 10,
+        "y": 23
+      },
+      "trimmed": true
+    },
+    "sack_of_flour_with_a_scoop": {
+      "frame": {
+        "h": 45,
+        "w": 42,
+        "x": 195,
+        "y": 3
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 45,
+        "w": 42,
+        "x": 3,
+        "y": 3
+      },
+      "trimmed": true
+    },
+    "sack_of_potatoes": {
+      "frame": {
+        "h": 44,
+        "w": 44,
+        "x": 242,
+        "y": 4
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 44,
+        "x": 2,
+        "y": 4
+      },
+      "trimmed": true
+    },
+    "wooden_crate_of_apples": {
+      "frame": {
+        "h": 39,
+        "w": 44,
+        "x": 290,
+        "y": 9
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 48
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 44,
+        "x": 2,
+        "y": 9
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/food.png",
+    "scale": "1",
+    "size": {
+      "h": 48,
+      "w": 336
+    },
+    "version": "1.0"
+  }
+}

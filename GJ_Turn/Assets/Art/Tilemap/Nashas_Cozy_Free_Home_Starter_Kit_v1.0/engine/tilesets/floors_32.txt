@@ -1,0 +1,7 @@
+0 -> flower_bed_soil.png
+1 -> front_lawn.png
+2 -> garden_gravel_path.png
+3 -> parquet_basketweave.png
+4 -> red_and_cream_checker.png
+5 -> white_bathroom_tile.png
+6 -> wood_planks_light.png

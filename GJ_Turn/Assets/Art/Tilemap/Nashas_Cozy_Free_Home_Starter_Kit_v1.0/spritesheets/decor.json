@@ -1,0 +1,150 @@
+{
+ "cell": 144,
+ "columns": 8,
+ "sprites": {
+  "broom": {
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "candle_lantern": {
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "cat_scratching_post": {
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "ceramic_vase": {
+   "x": 432,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "dog_bed": {
+   "x": 576,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "framed_photo": {
+   "x": 720,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug": {
+   "x": 864,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "large_vase_with_pampas_grass": {
+   "x": 1008,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "pet_food_and_water_bowl": {
+   "x": 0,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "potted_fern": {
+   "x": 144,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "potted_succulent": {
+   "x": 288,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug": {
+   "x": 432,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_wall_clock": {
+   "x": 576,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_wall_mirror": {
+   "x": 720,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "scented_candle_in_a_jar": {
+   "x": 864,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "small_bonsai_tree": {
+   "x": 1008,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "tiny_cuckoo_clock": {
+   "x": 0,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "trio_of_succulents": {
+   "x": 144,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "umbrella_stand": {
+   "x": 288,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "vase_of_daisies": {
+   "x": 432,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "vase_with_sunflowers": {
+   "x": 576,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "wall_shelf_with_plants": {
+   "x": 720,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "watering_can": {
+   "x": 864,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  },
+  "wicker_laundry_basket": {
+   "x": 1008,
+   "y": 288,
+   "w": 144,
+   "h": 144
+  }
+ }
+}

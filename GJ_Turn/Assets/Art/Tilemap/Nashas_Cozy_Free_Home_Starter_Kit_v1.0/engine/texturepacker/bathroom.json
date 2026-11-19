@@ -1,0 +1,231 @@
+{
+  "frames": {
+    "bar_of_soap": {
+      "frame": {
+        "h": 26,
+        "w": 37,
+        "x": 29,
+        "y": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 26,
+        "w": 37,
+        "x": 29,
+        "y": 70
+      },
+      "trimmed": true
+    },
+    "bathroom_sink_with_a_mirror": {
+      "frame": {
+        "h": 72,
+        "w": 43,
+        "x": 122,
+        "y": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 72,
+        "w": 43,
+        "x": 26,
+        "y": 24
+      },
+      "trimmed": true
+    },
+    "bathtub": {
+      "frame": {
+        "h": 62,
+        "w": 96,
+        "x": 192,
+        "y": 34
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 62,
+        "w": 96,
+        "x": 0,
+        "y": 34
+      },
+      "trimmed": true
+    },
+    "rubber_duck": {
+      "frame": {
+        "h": 27,
+        "w": 28,
+        "x": 322,
+        "y": 69
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 27,
+        "w": 28,
+        "x": 34,
+        "y": 69
+      },
+      "trimmed": true
+    },
+    "shampoo_bottle": {
+      "frame": {
+        "h": 41,
+        "w": 19,
+        "x": 422,
+        "y": 55
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 41,
+        "w": 19,
+        "x": 38,
+        "y": 55
+      },
+      "trimmed": true
+    },
+    "soap_pump_bottle": {
+      "frame": {
+        "h": 37,
+        "w": 21,
+        "x": 517,
+        "y": 59
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 37,
+        "w": 21,
+        "x": 37,
+        "y": 59
+      },
+      "trimmed": true
+    },
+    "stack_of_folded_towels": {
+      "frame": {
+        "h": 39,
+        "w": 37,
+        "x": 605,
+        "y": 57
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 37,
+        "x": 29,
+        "y": 57
+      },
+      "trimmed": true
+    },
+    "toilet": {
+      "frame": {
+        "h": 65,
+        "w": 36,
+        "x": 702,
+        "y": 31
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 65,
+        "w": 36,
+        "x": 30,
+        "y": 31
+      },
+      "trimmed": true
+    },
+    "toothbrush_cup": {
+      "frame": {
+        "h": 38,
+        "w": 26,
+        "x": 35,
+        "y": 154
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 26,
+        "x": 35,
+        "y": 58
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/bathroom.png",
+    "scale": "1",
+    "size": {
+      "h": 192,
+      "w": 768
+    },
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "frames": {
+    "bag_of_soil": {
+      "frame": {
+        "h": 41,
+        "w": 34,
+        "x": 39,
+        "y": 71
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 41,
+        "w": 34,
+        "x": 39,
+        "y": 71
+      },
+      "trimmed": true
+    },
+    "basket_of_apples": {
+      "frame": {
+        "h": 29,
+        "w": 36,
+        "x": 150,
+        "y": 83
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 29,
+        "w": 36,
+        "x": 38,
+        "y": 83
+      },
+      "trimmed": true
+    },
+    "bird_feeder_with_seeds": {
+      "frame": {
+        "h": 35,
+        "w": 37,
+        "x": 261,
+        "y": 77
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 35,
+        "w": 37,
+        "x": 37,
+        "y": 77
+      },
+      "trimmed": true
+    },
+    "birdhouse_on_a_tall_wooden_pole": {
+      "frame": {
+        "h": 68,
+        "w": 26,
+        "x": 379,
+        "y": 44
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 68,
+        "w": 26,
+        "x": 43,
+        "y": 44
+      },
+      "trimmed": true
+    },
+    "clothesline_with_colourful_laundry": {
+      "frame": {
+        "h": 38,
+        "w": 70,
+        "x": 469,
+        "y": 74
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 70,
+        "x": 21,
+        "y": 74
+      },
+      "trimmed": true
+    },
+    "garden_gnome_holding_a_lantern": {
+      "frame": {
+        "h": 43,
+        "w": 34,
+        "x": 599,
+        "y": 69
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 43,
+        "w": 34,
+        "x": 39,
+        "y": 69
+      },
+      "trimmed": true
+    },
+    "garden_rake": {
+      "frame": {
+        "h": 36,
+        "w": 27,
+        "x": 714,
+        "y": 76
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 36,
+        "w": 27,
+        "x": 42,
+        "y": 76
+      },
+      "trimmed": true
+    },
+    "lilac_bush_in_bloom": {
+      "frame": {
+        "h": 54,
+        "w": 44,
+        "x": 818,
+        "y": 58
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 54,
+        "w": 44,
+        "x": 34,
+        "y": 58
+      },
+      "trimmed": true
+    },
+    "little_hedgehog": {
+      "frame": {
+        "h": 29,
+        "w": 33,
+        "x": 39,
+        "y": 195
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 29,
+        "w": 33,
+        "x": 39,
+        "y": 83
+      },
+      "trimmed": true
+    },
+    "long_raised_flower_bed_with_tulips": {
+      "frame": {
+        "h": 31,
+        "w": 72,
+        "x": 132,
+        "y": 193
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 72,
+        "x": 20,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "pinwheel_on_a_stick": {
+      "frame": {
+        "h": 40,
+        "w": 30,
+        "x": 265,
+        "y": 184
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 40,
+        "w": 30,
+        "x": 41,
+        "y": 72
+      },
+      "trimmed": true
+    },
+    "potted_daisy": {
+      "frame": {
+        "h": 36,
+        "w": 27,
+        "x": 378,
+        "y": 188
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 36,
+        "w": 27,
+        "x": 42,
+        "y": 76
+      },
+      "trimmed": true
+    },
+    "round_flower_bed_with_daisies": {
+      "frame": {
+        "h": 39,
+        "w": 60,
+        "x": 474,
+        "y": 185
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 60,
+        "x": 26,
+        "y": 73
+      },
+      "trimmed": true
+    },
+    "sleeping_cat_curled_up": {
+      "frame": {
+        "h": 26,
+        "w": 39,
+        "x": 596,
+        "y": 198
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 26,
+        "w": 39,
+        "x": 36,
+        "y": 86
+      },
+      "trimmed": true
+    },
+    "small_apple_tree_with_red_apples": {
+      "frame": {
+        "h": 70,
+        "w": 46,
+        "x": 705,
+        "y": 154
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 70,
+        "w": 46,
+        "x": 33,
+        "y": 42
+      },
+      "trimmed": true
+    },
+    "small_cottage_with_a_golden_thatched_roof_a_chimney_and_a_wooden_door": {
+      "frame": {
+        "h": 92,
+        "w": 107,
+        "x": 786,
+        "y": 132
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 92,
+        "w": 107,
+        "x": 2,
+        "y": 20
+      },
+      "trimmed": true
+    },
+    "small_glass_greenhouse_drawn_opaque_in_light_blue_tones": {
+      "frame": {
+        "h": 68,
+        "w": 73,
+        "x": 19,
+        "y": 268
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 68,
+        "w": 73,
+        "x": 19,
+        "y": 44
+      },
+      "trimmed": true
+    },
+    "small_watering_can": {
+      "frame": {
+        "h": 28,
+        "w": 34,
+        "x": 151,
+        "y": 308
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 28,
+        "w": 34,
+        "x": 39,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "stack_of_three_terracotta_pots": {
+      "frame": {
+        "h": 35,
+        "w": 21,
+        "x": 269,
+        "y": 301
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 35,
+        "w": 21,
+        "x": 45,
+        "y": 77
+      },
+      "trimmed": true
+    },
+    "stone_well_with_a_wooden_roof_and_a_bucket": {
+      "frame": {
+        "h": 71,
+        "w": 63,
+        "x": 360,
+        "y": 265
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 71,
+        "w": 63,
+        "x": 24,
+        "y": 41
+      },
+      "trimmed": true
+    },
+    "wooden_bench_with_a_cream_canvas_seat": {
+      "frame": {
+        "h": 36,
+        "w": 69,
+        "x": 469,
+        "y": 300
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 36,
+        "w": 69,
+        "x": 21,
+        "y": 76
+      },
+      "trimmed": true
+    },
+    "wooden_garden_shed_with_a_small_window": {
+      "frame": {
+        "h": 65,
+        "w": 68,
+        "x": 582,
+        "y": 271
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 65,
+        "w": 68,
+        "x": 22,
+        "y": 47
+      },
+      "trimmed": true
+    },
+    "wooden_rail_fence_gate": {
+      "frame": {
+        "h": 36,
+        "w": 65,
+        "x": 695,
+        "y": 300
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 36,
+        "w": 65,
+        "x": 23,
+        "y": 76
+      },
+      "trimmed": true
+    },
+    "wooden_rail_fence_section": {
+      "frame": {
+        "h": 32,
+        "w": 68,
+        "x": 806,
+        "y": 304
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 32,
+        "w": 68,
+        "x": 22,
+        "y": 80
+      },
+      "trimmed": true
+    },
+    "wooden_rain_barrel_under_a_drainpipe": {
+      "frame": {
+        "h": 72,
+        "w": 63,
+        "x": 24,
+        "y": 376
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 112,
+        "w": 112
+      },
+      "spriteSourceSize": {
+        "h": 72,
+        "w": 63,
+        "x": 24,
+        "y": 40
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/garden_and_outside.png",
+    "scale": "1",
+    "size": {
+      "h": 448,
+      "w": 896
+    },
+    "version": "1.0"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "frames": {
+    "big_wicker_picnic_hamper": {
+      "frame": {
+        "h": 43,
+        "w": 46,
+        "x": 25,
+        "y": 53
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 43,
+        "w": 46,
+        "x": 25,
+        "y": 53
+      },
+      "trimmed": true
+    },
+    "bread_bin": {
+      "frame": {
+        "h": 26,
+        "w": 36,
+        "x": 126,
+        "y": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 26,
+        "w": 36,
+        "x": 30,
+        "y": 70
+      },
+      "trimmed": true
+    },
+    "brick_bread_oven_built_into_a_wall_with_an_arched_opening": {
+      "frame": {
+        "h": 83,
+        "w": 49,
+        "x": 215,
+        "y": 13
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 83,
+        "w": 49,
+        "x": 23,
+        "y": 13
+      },
+      "trimmed": true
+    },
+    "grandfather_style_kitchen_clock": {
+      "frame": {
+        "h": 85,
+        "w": 28,
+        "x": 322,
+        "y": 11
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 85,
+        "w": 28,
+        "x": 34,
+        "y": 11
+      },
+      "trimmed": true
+    },
+    "kitchen_counter_with_a_four_burner_stove_top": {
+      "frame": {
+        "h": 34,
+        "w": 71,
+        "x": 396,
+        "y": 62
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 71,
+        "x": 12,
+        "y": 62
+      },
+      "trimmed": true
+    },
+    "kitchen_counter_with_a_white_ceramic_sink": {
+      "frame": {
+        "h": 44,
+        "w": 66,
+        "x": 495,
+        "y": 52
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 66,
+        "x": 15,
+        "y": 52
+      },
+      "trimmed": true
+    },
+    "long_kitchen_window_with_a_flower_box": {
+      "frame": {
+        "h": 44,
+        "w": 62,
+        "x": 593,
+        "y": 52
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 62,
+        "x": 17,
+        "y": 52
+      },
+      "trimmed": true
+    },
+    "long_wall_shelf_with_mugs_hanging_below": {
+      "frame": {
+        "h": 38,
+        "w": 71,
+        "x": 684,
+        "y": 58
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 38,
+        "w": 71,
+        "x": 12,
+        "y": 58
+      },
+      "trimmed": true
+    },
+    "long_wooden_kitchen_counter_with_drawers": {
+      "frame": {
+        "h": 33,
+        "w": 67,
+        "x": 14,
+        "y": 159
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 33,
+        "w": 67,
+        "x": 14,
+        "y": 63
+      },
+      "trimmed": true
+    },
+    "pet_bowl_pair_on_a_small_mat": {
+      "frame": {
+        "h": 24,
+        "w": 64,
+        "x": 112,
+        "y": 168
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 24,
+        "w": 64,
+        "x": 16,
+        "y": 72
+      },
+      "trimmed": true
+    },
+    "rag_rug_for_the_kitchen_floor": {
+      "frame": {
+        "h": 28,
+        "w": 68,
+        "x": 206,
+        "y": 164
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 28,
+        "w": 68,
+        "x": 14,
+        "y": 68
+      },
+      "trimmed": true
+    },
+    "small_round_wooden_table": {
+      "frame": {
+        "h": 37,
+        "w": 44,
+        "x": 314,
+        "y": 155
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 37,
+        "w": 44,
+        "x": 26,
+        "y": 59
+      },
+      "trimmed": true
+    },
+    "tall_cream_refrigerator_with_rounded_corners": {
+      "frame": {
+        "h": 81,
+        "w": 41,
+        "x": 411,
+        "y": 111
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 81,
+        "w": 41,
+        "x": 27,
+        "y": 15
+      },
+      "trimmed": true
+    },
+    "tall_kitchen_hutch_with_plates_on_its_open_shelves": {
+      "frame": {
+        "h": 80,
+        "w": 45,
+        "x": 505,
+        "y": 112
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 80,
+        "w": 45,
+        "x": 25,
+        "y": 16
+      },
+      "trimmed": true
+    },
+    "tall_milk_churn": {
+      "frame": {
+        "h": 68,
+        "w": 37,
+        "x": 605,
+        "y": 124
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 68,
+        "w": 37,
+        "x": 29,
+        "y": 28
+      },
+      "trimmed": true
+    },
+    "tall_potted_herb_stand_with_three_shelves_of_herbs": {
+      "frame": {
+        "h": 87,
+        "w": 45,
+        "x": 697,
+        "y": 105
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 87,
+        "w": 45,
+        "x": 25,
+        "y": 9
+      },
+      "trimmed": true
+    },
+    "toaster_with_toast_popping_up": {
+      "frame": {
+        "h": 33,
+        "w": 30,
+        "x": 33,
+        "y": 255
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 33,
+        "w": 30,
+        "x": 33,
+        "y": 63
+      },
+      "trimmed": true
+    },
+    "whistling_tea_kettle": {
+      "frame": {
+        "h": 34,
+        "w": 33,
+        "x": 127,
+        "y": 254
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 34,
+        "w": 33,
+        "x": 31,
+        "y": 62
+      },
+      "trimmed": true
+    },
+    "wooden_chair_with_a_gingham_seat_cushion": {
+      "frame": {
+        "h": 44,
+        "w": 32,
+        "x": 224,
+        "y": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 44,
+        "w": 32,
+        "x": 32,
+        "y": 52
+      },
+      "trimmed": true
+    },
+    "wooden_kitchen_chair": {
+      "frame": {
+        "h": 43,
+        "w": 29,
+        "x": 321,
+        "y": 245
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 43,
+        "w": 29,
+        "x": 33,
+        "y": 53
+      },
+      "trimmed": true
+    },
+    "wooden_kitchen_island_with_a_butcher_block_top": {
+      "frame": {
+        "h": 39,
+        "w": 56,
+        "x": 404,
+        "y": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 96,
+        "w": 96
+      },
+      "spriteSourceSize": {
+        "h": 39,
+        "w": 56,
+        "x": 20,
+        "y": 57
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/kitchen.png",
+    "scale": "1",
+    "size": {
+      "h": 288,
+      "w": 768
+    },
+    "version": "1.0"
+  }
+}

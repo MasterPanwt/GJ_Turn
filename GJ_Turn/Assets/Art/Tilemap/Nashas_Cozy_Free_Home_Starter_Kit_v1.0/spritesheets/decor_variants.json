@@ -1,0 +1,78 @@
+{
+ "cell": 144,
+ "columns": 8,
+ "sprites": {
+  "hallway_runner_rug__baby_blue": {
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug__burgundy": {
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug__lavender": {
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug__olive": {
+   "x": 432,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug__sage": {
+   "x": 576,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "hallway_runner_rug__yellow": {
+   "x": 720,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__baby_blue": {
+   "x": 864,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__charcoal": {
+   "x": 1008,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__green": {
+   "x": 0,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__olive": {
+   "x": 144,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__red": {
+   "x": 288,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "round_braided_rug__yellow": {
+   "x": 432,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  }
+ }
+}

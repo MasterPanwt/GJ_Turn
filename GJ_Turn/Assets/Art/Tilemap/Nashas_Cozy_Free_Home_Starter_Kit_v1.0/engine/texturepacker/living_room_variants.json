@@ -1,0 +1,783 @@
+{
+  "frames": {
+    "armchair__baby_blue": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "armchair__charcoal": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 186,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "armchair__lavender": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 330,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "armchair__mustard": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 474,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "armchair__purple": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 618,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "armchair__turquoise": {
+      "frame": {
+        "h": 60,
+        "w": 59,
+        "x": 762,
+        "y": 84
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 60,
+        "w": 59,
+        "x": 42,
+        "y": 84
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__baby_blue": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 918,
+        "y": 113
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__burgundy": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 1062,
+        "y": 113
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__green": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 257
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__navy": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 198,
+        "y": 257
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__red": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 342,
+        "y": 257
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "knitted_pouf__turquoise": {
+      "frame": {
+        "h": 31,
+        "w": 35,
+        "x": 486,
+        "y": 257
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 31,
+        "w": 35,
+        "x": 54,
+        "y": 113
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__baby_blue": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 581,
+        "y": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__burgundy": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 725,
+        "y": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__green": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 869,
+        "y": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__navy": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 1013,
+        "y": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__sage": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 369
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "large_patterned_rug__yellow": {
+      "frame": {
+        "h": 63,
+        "w": 134,
+        "x": 149,
+        "y": 369
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 63,
+        "w": 134,
+        "x": 5,
+        "y": 81
+      },
+      "trimmed": true
+    },
+    "low_coffee_table__black_paint": {
+      "frame": {
+        "h": 49,
+        "w": 91,
+        "x": 314,
+        "y": 383
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "low_coffee_table__cherry": {
+      "frame": {
+        "h": 49,
+        "w": 91,
+        "x": 458,
+        "y": 383
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "low_coffee_table__sage_paint": {
+      "frame": {
+        "h": 49,
+        "w": 91,
+        "x": 602,
+        "y": 383
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "low_coffee_table__white_paint": {
+      "frame": {
+        "h": 49,
+        "w": 91,
+        "x": 746,
+        "y": 383
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 91,
+        "x": 26,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "tall_bookshelf_with_books__black_paint": {
+      "frame": {
+        "h": 105,
+        "w": 64,
+        "x": 904,
+        "y": 327
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 39
+      },
+      "trimmed": true
+    },
+    "tall_bookshelf_with_books__cherry": {
+      "frame": {
+        "h": 105,
+        "w": 64,
+        "x": 1048,
+        "y": 327
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 39
+      },
+      "trimmed": true
+    },
+    "tall_bookshelf_with_books__sage_paint": {
+      "frame": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 471
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 39
+      },
+      "trimmed": true
+    },
+    "tall_bookshelf_with_books__white_paint": {
+      "frame": {
+        "h": 105,
+        "w": 64,
+        "x": 184,
+        "y": 471
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 105,
+        "w": 64,
+        "x": 40,
+        "y": 39
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__baby_blue": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 304,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__charcoal": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 448,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__lavender": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 592,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__pink": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 736,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__sage": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 880,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    },
+    "three_seat_sofa__turquoise": {
+      "frame": {
+        "h": 49,
+        "w": 111,
+        "x": 1024,
+        "y": 527
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 144,
+        "w": 144
+      },
+      "spriteSourceSize": {
+        "h": 49,
+        "w": 111,
+        "x": 16,
+        "y": 95
+      },
+      "trimmed": true
+    }
+  },
+  "meta": {
+    "app": "Nasha's pixel packs",
+    "format": "RGBA8888",
+    "image": "../../spritesheets/living_room_variants.png",
+    "scale": "1",
+    "size": {
+      "h": 576,
+      "w": 1152
+    },
+    "version": "1.0"
+  }
+}

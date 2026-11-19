@@ -1,0 +1,48 @@
+{
+ "cell": 48,
+ "columns": 7,
+ "sprites": {
+  "ball_of_bread_dough": {
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "barrel_of_pickles": {
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "big_birthday_cake_with_candles": {
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "bowl_of_cake_batter": {
+   "x": 144,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "sack_of_flour_with_a_scoop": {
+   "x": 192,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "sack_of_potatoes": {
+   "x": 240,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  },
+  "wooden_crate_of_apples": {
+   "x": 288,
+   "y": 0,
+   "w": 48,
+   "h": 48
+  }
+ }
+}

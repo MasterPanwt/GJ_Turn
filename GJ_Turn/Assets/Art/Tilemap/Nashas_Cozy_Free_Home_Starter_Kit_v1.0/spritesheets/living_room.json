@@ -1,0 +1,96 @@
+{
+ "cell": 144,
+ "columns": 8,
+ "sprites": {
+  "armchair": {
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "basket_of_blankets": {
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "cat_bed": {
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "coffee_mug": {
+   "x": 432,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "floor_lamp": {
+   "x": 576,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "framed_landscape_painting": {
+   "x": 720,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "knitted_pouf": {
+   "x": 864,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "large_patterned_rug": {
+   "x": 1008,
+   "y": 0,
+   "w": 144,
+   "h": 144
+  },
+  "low_coffee_table": {
+   "x": 0,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "potted_fiddle_leaf_fig": {
+   "x": 144,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "potted_monstera_plant": {
+   "x": 288,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "stack_of_books": {
+   "x": 432,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "tall_bookshelf_with_books": {
+   "x": 576,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "three_seat_sofa": {
+   "x": 720,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  },
+  "window_cream_curtains": {
+   "x": 864,
+   "y": 144,
+   "w": 144,
+   "h": 144
+  }
+ }
+}
