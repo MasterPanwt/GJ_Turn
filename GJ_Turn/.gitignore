@@ -136,3 +136,7 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# 个人测试区，不提交
+/Assets/_Sandbox/
+/Assets/_Sandbox.meta
