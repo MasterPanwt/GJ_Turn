@@ -17,4 +17,7 @@
 ### 背包界面InventoryPanel
 还在开发中，目前什么需求都没给就先命名了个界面
 
+### 交互界面 InteractionPromptPanel
+只有一个E键
+
 
