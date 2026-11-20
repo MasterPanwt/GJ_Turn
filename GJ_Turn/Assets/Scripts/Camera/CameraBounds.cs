@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CameraBounds : MonoBehaviour
 {
-    
+    [Header("边界")]
     public BoxCollider2D _Coll ;
     [Header("玩家")]
     public Transform PlayerTransform;
@@ -17,38 +17,43 @@ public class CameraBounds : MonoBehaviour
     float right ;
     float up ;
     float down ;
-
-    const int Height = 5;
-    const int Width = 9;
+    float Height;
+    float Width;
     // Start is called before the first frame update
     void Start()
     {
-        
-        //获取相关边界
-        left = _Coll.bounds.min.x;
-        right = _Coll.bounds.max.x;
-        down = _Coll.bounds.min.y;
-        up = _Coll.bounds.max.y;
         mainCamera = Camera.main;
-        
+        Height = mainCamera.orthographicSize;
+        Width = Height * mainCamera.aspect;
+        //获取相关边界
+        left = _Coll.bounds.min.x + Width;
+        right = _Coll.bounds.max.x - Width;
+        down = _Coll.bounds.min.y + Height;
+        up = _Coll.bounds.max.y - Height;
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        //如果玩家的左右边某位置在范围内
-        if (PlayerTransform.position.x - Width >= left &&
-            PlayerTransform.position.x + Width <= right )
+        float CameraX;
+        float CameraY;
+        if (left > right) //防止边界太小导致bug
         {
-            transform.position = new Vector3 (PlayerTransform.position.x , transform.position.y ,-10);
-
+            CameraX = _Coll.bounds.center.x;
         }
-        if (PlayerTransform.position.y - Height >= down &&
-            PlayerTransform.position.y + Height <= up )
+        else
         {
-            Debug.Log("y方向的判断");
-            transform.position = new Vector3 (transform.position.x , PlayerTransform.position.y,-10);
+            CameraX = Mathf.Clamp(PlayerTransform.position.x, left, right); //判断摄像机要到的位置
         }
+        if (down > up)
+        {
+            CameraY = _Coll.bounds.center.y;
+        }
+        else
+        {
+            CameraY = Mathf.Clamp(PlayerTransform.position.y, down, up);
+        }
+        transform.position = new Vector3 (CameraX , CameraY ,transform.position.z);
         
     }
 }
