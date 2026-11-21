@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -53,7 +54,8 @@ public class CameraBounds : MonoBehaviour
         {
             CameraY = Mathf.Clamp(PlayerTransform.position.y, down, up);
         }
-        transform.position = new Vector3 (CameraX , CameraY ,transform.position.z);
+        
+        transform.position = new Vector3 (CameraX, CameraY, transform.position.z);
         
     }
 }
