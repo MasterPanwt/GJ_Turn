@@ -6,6 +6,9 @@ public class AudioPoolTest : MonoBehaviour
 {
     [Header("对象池")]
     public AudioSourcePool audioPool;
+    [Header("BGM")]
+    public SettingBGM BGMAudio;
+
 
     [Header("测试音效")]
     public AudioClip testClip;
@@ -29,8 +32,7 @@ public class AudioPoolTest : MonoBehaviour
             {
                 Debug.Log("按下J键播放第二个音频");
 
-                // 从对象池播放音效
-                audioPool.PlaySound(testClip2,AudioSourcePool.SfxId.UiClick);
+                BGMAudio.PlaySound(testClip2);
             }
         }
     }

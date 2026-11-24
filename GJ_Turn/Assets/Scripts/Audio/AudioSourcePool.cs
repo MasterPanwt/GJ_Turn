@@ -24,10 +24,10 @@ public class AudioSourcePool : MonoBehaviour
         DoorOpen        = 30,   // 门开
         DoorLocked      = 31,   // 门锁拒绝（"开/拒绝 + 提示音"）
         DrawerOpen      = 32,   // 抽屉/柜子（初次、二次共用）
-        Pick       = 33,   // 拾取
+        Pick            = 33,        // 拾取
         ObjectPhaseOut  = 34,   // 虚化物品显形（必须对齐手电 1.2s）
-        MirrorCompelete    = 35,   // 镜子照射 2s 完成
-        InPhased =  36 ,//在虚化物品中被虚化
+        MirrorCompelete = 35,   // 镜子照射 2s 完成
+        InPhased        = 36 ,//在虚化物品中被虚化
 
         // ── D. 床 ───────────────────────────────────
         BedRest         = 50,   // 小憩（重置手电实体化物）
@@ -50,13 +50,6 @@ public class AudioSourcePool : MonoBehaviour
 
         SFXend          = 78,   //最后一个音效，用来判断用哪个音频混合器
 
-        // ── G. 环境底噪 ──────────────────────────────
-        AmbRoomAir      = 80,   // 室内空气声（卧室/客厅）
-        AmbKitchen      = 81,   // 厨房冰箱低鸣
-        AmbBathroom     = 82,   // 浴室滴水/管道
-
-        BGMend          = 83,    //最后一个背景音乐
-
         // ── H. UI ──────────────────────────────────
         UiClick         = 90,   // 通用点击
         UiBackpackOpen  = 91,
@@ -71,7 +64,7 @@ public class AudioSourcePool : MonoBehaviour
 
     [Header("音频管理器设置")]
     [SerializeField] AudioMixerGroup SFXGroup;
-    [SerializeField] AudioMixerGroup BGMGroup;
+    
     [SerializeField] AudioMixerGroup UIGroup;
 
     // 保存对象池中的所有音频播放器
@@ -155,11 +148,6 @@ public class AudioSourcePool : MonoBehaviour
         {
             source.outputAudioMixerGroup = SFXGroup;
         }
-        else if( id > SfxId.SFXend && id < SfxId.BGMend)
-        {
-            source.outputAudioMixerGroup = BGMGroup;
-        }
-
         else
         {
             source.outputAudioMixerGroup = UIGroup;
@@ -175,7 +163,7 @@ public class AudioSourcePool : MonoBehaviour
         source.Play();
 
         // 计算音效实际播放时间
-        float playTime = clip.length / Mathf.Max(Mathf.Abs(source.pitch), 0.01f);
+        float playTime = clip.length;
 
         // 播放结束后，将播放器归还对象池
         StartCoroutine(ReturnAfterPlay(source, playTime));
