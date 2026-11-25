@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get ; private set;}
+
+    private Transform playerTransform;
     private void Awake()
     {
         if (Instance == null)
@@ -18,6 +20,7 @@ public class SceneLoader : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject); //加载新场景不销毁这个
+
 
     }
 
@@ -35,6 +38,7 @@ public class SceneLoader : MonoBehaviour
         //保存所有持久化数据
 
         //淡出场景
+        yield return StartCoroutine(ScreenFader.Instance.FadeSceneOut());
 
         //异步加载新场景
         yield return SceneManager.LoadSceneAsync(newSceneName); //新方法
@@ -42,11 +46,24 @@ public class SceneLoader : MonoBehaviour
         //加载所有数据
 
         //获取场景过度的位置 
+        SceneEntrance entrance = FindObjectOfType<SceneEntrance>();
 
-        //设置进入游戏的位置
-
-        //淡入新场景
 
         
+        //设置进入游戏的位置
+        SetEnteringPosition(entrance);
+
+        //淡入新场景
+        yield return StartCoroutine(ScreenFader.Instance.FadeSceneIn());
+
+
+        
+    }
+
+    private void SetEnteringPosition(SceneEntrance entrance)
+    {
+        Transform entranceTransform = entrance.transform;
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        playerTransform.position = entranceTransform.position;
     }
 }
