@@ -9,8 +9,7 @@ public class CameraBounds : MonoBehaviour
 {
     [Header("边界")]
     public BoxCollider2D _Coll ;
-    [Header("玩家")]
-    public Transform PlayerTransform;
+    Transform playerTransform;
 
     Camera mainCamera ;
 
@@ -31,6 +30,8 @@ public class CameraBounds : MonoBehaviour
         right = _Coll.bounds.max.x - Width;
         down = _Coll.bounds.min.y + Height;
         up = _Coll.bounds.max.y - Height;
+        //获取玩家
+        playerTransform = GameObject.FindWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -44,7 +45,7 @@ public class CameraBounds : MonoBehaviour
         }
         else
         {
-            CameraX = Mathf.Clamp(PlayerTransform.position.x, left, right); //判断摄像机要到的位置
+            CameraX = Mathf.Clamp(playerTransform.position.x, left, right); //判断摄像机要到的位置
         }
         if (down > up)
         {
@@ -52,7 +53,7 @@ public class CameraBounds : MonoBehaviour
         }
         else
         {
-            CameraY = Mathf.Clamp(PlayerTransform.position.y, down, up);
+            CameraY = Mathf.Clamp(playerTransform.position.y, down, up);
         }
         
         transform.position = new Vector3 (CameraX, CameraY, transform.position.z);
