@@ -9,6 +9,7 @@ public class CameraBounds : MonoBehaviour
 {
     [Header("边界")]
     public BoxCollider2D _Coll ;
+    private Transform PlayerTransform;
     Transform playerTransform;
 
     Camera mainCamera ;
