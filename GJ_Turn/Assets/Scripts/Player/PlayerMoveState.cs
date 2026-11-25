@@ -17,8 +17,8 @@ public class PlayerMoveState : PlayerState
     public override void Update()
     {
         base.Update();
-        playerController.SetVelocity(moveInput * playerController.moveSpeed);
-        if (moveInput == Vector2.zero)
+        playerController.SetVelocity(playerController.moveInput * playerController.moveSpeed);
+        if (playerController.moveInput == Vector2.zero)
         {
             stateMachine.ChangeState(playerController.idleState);
         }

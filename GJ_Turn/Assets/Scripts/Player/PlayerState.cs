@@ -7,7 +7,7 @@ public class PlayerState
     protected PlayerStateMachine stateMachine;
     protected PlayerController playerController;
     private string animBoolName;
-    protected Vector2 moveInput;
+    
     
     public PlayerState(PlayerStateMachine _stateMachine, PlayerController _playerController, string _animBoolName)
     {
@@ -23,7 +23,7 @@ public class PlayerState
 
     public virtual void Update()
     {
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        
     }
 
     public virtual void Exit()
