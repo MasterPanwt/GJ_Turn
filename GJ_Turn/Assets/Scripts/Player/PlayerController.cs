@@ -50,15 +50,14 @@ public class PlayerController : MonoBehaviour
         }
         flash.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle);
         spotlight.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle + 180f);
-        if (isFlashOn)
+        foreach (GameObject target in fadeTargets)
         {
-            foreach (GameObject target in fadeTargets)
+            FadeController fc = target.GetComponent<FadeController>();
+            if (IsInFlash(target.transform.position) && isFlashOn)
             {
-                if (IsInFlash(target.transform.position))
-                {
-                    target.GetComponent<FadeController>().ChangeFadeNum(1);
-                }
+                fc.Rampto(1f);
             }
+            else if (fc.progress != 1f) fc.Rampto(0f);//实现松手回退进度
         }
         stateMachine.curState.Update();
     }
