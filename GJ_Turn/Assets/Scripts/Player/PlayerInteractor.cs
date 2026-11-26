@@ -1,32 +1,54 @@
-using UnityEngine;
-using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+using static UnityEngine.UI.Image;
 
 public class PlayerInteractor : MonoBehaviour
 { 
     public TMP_Text interactPrompt; //屏幕上的交互提示文字
     IInteractable interactable; //可交互的组件
+    [SerializeField] float radius = 0.5f;//交互半径
+    LayerMask interactableMask;
 
-    // 尝试与视线中心的物体交互
-    private void OnTriggerStay2D(Collider2D other)
+
+    private void Awake()
     {
-        // 获取物体上的交互组件
-        interactable =other.GetComponentInParent<IInteractable>();
+        interactableMask = LayerMask.GetMask("Interactable");
     }
+
 
     void Update()
     {
-        // 如果物体支持交互，就执行交互方法
-        if (interactable != null)
+        IInteractable hit = TryGetInteractable();
+
+        // 如果得到最近可交互物，就执行交互方法
+        if (hit != null)
         {
             interactPrompt.text = "E";
             if (Input.GetKeyDown(KeyCode.E))
             {
-                interactable.Interact(this);
+                hit.Interact(this);
             }
         }
         else {interactPrompt.text = null;}
     }
+    IInteractable TryGetInteractable()//尝试获取最近的可交互物
+    {
+        Collider2D[] _buffer = new Collider2D[16];
+        IInteractable nearest = null;
 
+        int n = Physics2D.OverlapCircleNonAlloc(transform.position, radius, _buffer, interactableMask);
+        float bestSqr = float.MaxValue;
+        Vector2 me = transform.position;
+        for (int i = 0; i < n; i++)
+        {
+            if (!_buffer[i].TryGetComponent<IInteractable>(out IInteractable it)) continue;
+
+            float sqr = ((Vector2)_buffer[i].transform.position - me).sqrMagnitude;
+            if (sqr < bestSqr) { bestSqr = sqr; nearest = it; }
+        }
+        return nearest;
+    }
 }

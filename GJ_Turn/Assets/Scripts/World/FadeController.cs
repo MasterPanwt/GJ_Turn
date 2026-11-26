@@ -12,9 +12,16 @@ public class FadeController : MonoBehaviour
     [Range(0f,1f)] public float progress = 0f;
 
     Coroutine _co;
+    Collider2D _collider;
 
     private void Awake()
     {
+        if(!_collider)_collider = GetComponent<Collider2D>();
+        if(!_collider)
+        {
+            Debug.LogError($"[{name}] 没有 Collider2D", this);
+            this.enabled = false;
+        }
         if(!sr)sr = GetComponent<SpriteRenderer>();
         if(!sr)
         {

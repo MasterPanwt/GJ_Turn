@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Open
+  - Close
   layers:
   - Default
   - TransparentFX
@@ -11,7 +13,7 @@ TagManager:
   - Flash Obstacle
   - Water
   - UI
-  - 
+  - Interactable
   - 
   - 
   - 

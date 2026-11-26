@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeskInteractable : MonoBehaviour
+public class DeskInteractable : MonoBehaviour, IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
+    public Collider2D Collider { get; private set; }
+    public void Awake()
     {
-        
+        Collider = GetComponent<Collider2D>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private bool isInteracted { get; set; } = false; 
+    public void Interact(PlayerInteractor player)
     {
-        
+        if (!isInteracted)
+        {
+            Debug.Log("捡起了钥匙");
+            isInteracted = true;
+            
+        }
+        else Debug.Log("已经捡过钥匙了");
     }
 }

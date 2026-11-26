@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Light2D flash;
     [SerializeField] private Light2D spotlight;
     private readonly List<GameObject> fadeTargets = new List<GameObject>();
-    private LayerMask obstacleMask;
+    [SerializeField]  private LayerMask obstacleMask;
+    [SerializeField]  private int interactableMask;
     public Animator anim { get; private set; }
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         obstacleMask = LayerMask.GetMask("Flash Obstacle");
+        interactableMask = LayerMask.NameToLayer("Interactable");
         anim = GetComponent<Animator>();
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(stateMachine, this, "Idle");
@@ -35,6 +37,14 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         stateMachine.Init(idleState);
+        foreach (GameObject target in fadeTargets)
+        {
+            Collider2D col = target.GetComponent<Collider2D>();
+            if (!col)
+                Debug.LogWarning($"{name} 没有碰撞箱", target);
+            else
+                col.enabled = false;
+        }
     }
 
     private void Update()
@@ -54,6 +64,8 @@ public class PlayerController : MonoBehaviour
         }
         flash.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle);
         spotlight.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle + 180f);
+
+        List<GameObject> embodieds = new List<GameObject>();
         foreach (GameObject target in fadeTargets)
         {
             FadeController fc = target.GetComponent<FadeController>();
@@ -62,6 +74,18 @@ public class PlayerController : MonoBehaviour
                 fc.Rampto(1f);
             }
             else if (fc.progress != 1f) fc.Rampto(0f);//实现松手回退进度
+            else
+            {
+                Collider2D col = fc.GetComponent<Collider2D>();
+                if (col != null)
+                    col.enabled = true;
+                target.layer = interactableMask;
+                embodieds.Add(target);
+            }
+        }
+        foreach (GameObject e in embodieds)
+        {
+            DelTarget(e);
         }
         stateMachine.curState.Update();
     }
