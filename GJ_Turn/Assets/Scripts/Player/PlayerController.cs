@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Light2D spotlight;
     private readonly List<GameObject> fadeTargets = new List<GameObject>();
     private LayerMask obstacleMask;
+    public Animator anim { get; private set; }
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
     public PlayerMoveState moveState { get; private set; }
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         obstacleMask = LayerMask.GetMask("Flash Obstacle");
+        anim = GetComponent<Animator>();
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(stateMachine, this, "Idle");
         moveState = new PlayerMoveState(stateMachine, this, "Move");
@@ -38,6 +40,8 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        anim.SetInteger("Horizontal", (int)Input.GetAxisRaw("Horizontal"));
+        anim.SetInteger("Vertical", (int)Input.GetAxisRaw("Vertical"));
         if (Input.GetKeyDown(KeyCode.F))
         {
             isFlashOn = !isFlashOn;

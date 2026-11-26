@@ -12,6 +12,9 @@ public class PlayerIdleState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        playerController.anim.speed = 0f;
+        AnimatorStateInfo stateInfo = playerController.anim.GetCurrentAnimatorStateInfo(0);
+        playerController.anim.Play(stateInfo.fullPathHash, 0, 0.99f);
     }
 
     public override void Update()
@@ -26,5 +29,6 @@ public class PlayerIdleState : PlayerState
     public override void Exit()
     {
         base.Exit();
+        playerController.anim.speed = 1f;
     }
 }
