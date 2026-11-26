@@ -30,6 +30,7 @@ public class FadeController : MonoBehaviour
             playerController = player.GetComponent<PlayerController>();
         }
         playerController.AddTarget(this.gameObject);
+        Apply(progress);
     }
 
     private void OnDestroy()
@@ -65,9 +66,9 @@ public class FadeController : MonoBehaviour
         progress = to;
         Apply(to);
     }
-    public void Apply(float progress)//改变不透明度
+    public void Apply(float val)//改变不透明度
     {
-        float a = Mathf.Lerp(128f / 255f, 1f, Mathf.Clamp01(progress));
+        float a = Mathf.Lerp(128f / 255f, 1f, Mathf.Clamp01(val));
         Color c = sr.color;
         c.a = a;
         sr.color = c;
