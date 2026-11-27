@@ -7,6 +7,7 @@ public class PickUp : MonoBehaviour , IInteractable
     public Collider2D Collider { get; private set; }
     public void Awake()
     {
+        Debug.Log("PickUp组件可以用");
         Collider = GetComponent<Collider2D>();
     }
     public void Interact(PlayerInteractor player)
