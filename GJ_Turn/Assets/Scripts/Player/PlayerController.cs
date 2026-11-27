@@ -7,8 +7,10 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 4f;
     public int fadeNum = 0;
-    [Range(0f, 1f)] private float fadeProgress = 0f;
+    private float fadeProgress = 0f;
     public bool isFlashOn = false;
+    private int batteryCnt = 100;  // Only for testing
+    private float dazzleTimer = 0f;
     public Vector2 moveInput { get; private set; }
     private Camera cam;
     private SpriteRenderer sr;
@@ -72,6 +74,14 @@ public class PlayerController : MonoBehaviour
         currentFlashAngle = Mathf.SmoothDampAngle(currentFlashAngle, flashAngle, ref flashAngleVelocity, 0.08f);
         flash.transform.rotation = Quaternion.Euler(0f, 0f, currentFlashAngle);
         spotlight.transform.rotation = Quaternion.Euler(0f, 0f, currentFlashAngle + 180f);
+        dazzleTimer = Mathf.Clamp(dazzleTimer - Time.deltaTime, 0f, 0.4f);
+        if (isFlashOn && batteryCnt > 0 && dazzleTimer == 0f && Input.GetKeyDown(KeyCode.Q))
+        {
+            StartCoroutine(Dazzle());
+            // Detection code here
+            batteryCnt--;
+            dazzleTimer = 0.4f;
+        }
 
         List<GameObject> embodieds = new List<GameObject>();
         foreach (GameObject target in fadeTargets)
@@ -99,7 +109,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Vector2.Distance(transform.position, target.transform.position) < 3f)
             {
-                fadeProgress += Time.deltaTime / 10f;
+                fadeProgress = Mathf.Clamp(fadeProgress + Time.deltaTime / 10f, 0f, 1f);
             }
         }
         stateMachine.curState.Update();
@@ -158,5 +168,23 @@ public class PlayerController : MonoBehaviour
         }
         RaycastHit2D hit = Physics2D.Raycast(origin, toTarget.normalized, dist, obstacleMask);
         return hit.collider == null;
+    }
+
+    IEnumerator Dazzle()
+    {
+        float timer = 0f;
+        while (timer <= 0.02f)
+        {
+            flash.volumeIntensity = 3.5f * (1f - (0.02f - timer) / 0.02f * (0.02f - timer) / 0.02f * (0.02f - timer) / 0.02f);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        while (timer <= 0.4f)
+        {
+            flash.volumeIntensity = 3.5f * (1f - (timer - 0.02f) / 0.38f * (timer - 0.02f) / 0.38f);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        flash.volumeIntensity = 0f;
     }
 }

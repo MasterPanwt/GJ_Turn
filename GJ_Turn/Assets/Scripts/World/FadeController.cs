@@ -16,8 +16,12 @@ public class FadeController : MonoBehaviour
 
     private void Awake()
     {
-        if(!_collider)_collider = GetComponent<Collider2D>();
-        if(!_collider)
+        if (!_collider)
+        {
+            _collider = GetComponent<Collider2D>();
+            _collider.enabled = false;
+        }
+        if (!_collider)
         {
             Debug.LogError($"[{name}] 没有 Collider2D", this);
             this.enabled = false;

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2426940771616539160}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,12 +199,8 @@ MonoBehaviour:
   moveSpeed: 6
   fadeNum: 0
   isFlashOn: 0
-  flash: {fileID: 0}
-  spotlight: {fileID: 0}
-  obstacleMask:
-    serializedVersion: 2
-    m_Bits: 0
-  interactableMask: 0
+  flash: {fileID: 7747959399714169522}
+  spotlight: {fileID: 2981423872320524541}
 --- !u!1 &2106288232330705781
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +334,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.5
   m_LightVolumeIntensity: 0
-  m_LightVolumeIntensityEnabled: 0
+  m_LightVolumeIntensityEnabled: 1
   m_ApplyToSortingLayers: 0000000009811ad145a5f337b708ddf3
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
