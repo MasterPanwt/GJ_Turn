@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour
     private Camera cam;
     private Rigidbody2D rb;
     private float flashAngle = 180f;
+    private float currentFlashAngle = 180f;
+    private float flashAngleVelocity;
     [SerializeField] private Light2D flash;
     [SerializeField] private Light2D spotlight;
     private readonly List<GameObject> fadeTargets = new List<GameObject>();
-    [SerializeField]  private LayerMask obstacleMask;
-    [SerializeField]  private int interactableMask;
+    private LayerMask obstacleMask;
+    private int interactableMask;
     public Animator anim { get; private set; }
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
@@ -62,8 +64,9 @@ public class PlayerController : MonoBehaviour
         {
             flashAngle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg - 90f;
         }
-        flash.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle);
-        spotlight.transform.rotation = Quaternion.Euler(0f, 0f, flashAngle + 180f);
+        currentFlashAngle = Mathf.SmoothDampAngle(currentFlashAngle, flashAngle, ref flashAngleVelocity, 0.08f);
+        flash.transform.rotation = Quaternion.Euler(0f, 0f, currentFlashAngle);
+        spotlight.transform.rotation = Quaternion.Euler(0f, 0f, currentFlashAngle + 180f);
 
         List<GameObject> embodieds = new List<GameObject>();
         foreach (GameObject target in fadeTargets)
@@ -118,7 +121,7 @@ public class PlayerController : MonoBehaviour
             return false;
         }
         float targetAngle = Mathf.Atan2(toTarget.y, toTarget.x) * Mathf.Rad2Deg - 90f;
-        if (Mathf.Abs(Mathf.DeltaAngle(flashAngle, targetAngle)) > 27.5f)
+        if (Mathf.Abs(Mathf.DeltaAngle(currentFlashAngle, targetAngle)) > 27.5f)
         {
             return false;
         }
