@@ -9,7 +9,7 @@ public class SceneExit : MonoBehaviour
     public string newSceneName;
     void Start()
     {
-        Debug.Log("这个脚本在起作用");
+        Debug.Log("出口脚本正常");
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

@@ -57,8 +57,9 @@ public class BackPackUI : MonoBehaviour
     }
     //将物品信息填入空位，结合交互函数实现(测试成功)
     //填入有物品名，介绍，图片
-    public void SetItem(Item item) //将前者（空格）中填入后者的数据
+    public void SetItem(GameObject gameObjectItem) //将前者（空格）中填入后者的数据
     {
+        Item item = gameObjectItem.GetComponent<Item>();
         GameObject back = GetIcon(); //获取空格
         ItemInBackPack myBackPackItem = back.GetComponent<ItemInBackPack>(); //获取空格上的空格脚本
         //编辑空格脚本数据
