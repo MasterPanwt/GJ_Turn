@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 4f;
-    public int fadeNum = 0;
-    private float fadeProgress = 0f;
     public bool isFlashOn = false;
     private int batteryCnt = 100;  // Only for testing
     private float dazzleTimer = 0f;
+    public UnityEvent onDazzle;
     public Vector2 moveInput { get; private set; }
-    private Camera cam;
-    private SpriteRenderer sr;
-    private BoxCollider2D bc;
     private Rigidbody2D rb;
     private float flashAngle = 180f;
     private float currentFlashAngle = 180f;
@@ -31,9 +28,6 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        cam = Camera.main;
-        sr = GetComponent<SpriteRenderer>();
-        bc = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         obstacleMask = LayerMask.GetMask("Flash Obstacle");
         interactableMask = LayerMask.NameToLayer("Interactable");
@@ -78,7 +72,6 @@ public class PlayerController : MonoBehaviour
         if (isFlashOn && batteryCnt > 0 && dazzleTimer == 0f && Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(Dazzle());
-            // Detection code here
             batteryCnt--;
             dazzleTimer = 0.4f;
         }
@@ -105,33 +98,7 @@ public class PlayerController : MonoBehaviour
         {
             DelTarget(e);
         }
-        foreach (GameObject target in fadeTargets)
-        {
-            if (Vector2.Distance(transform.position, target.transform.position) < 3f)
-            {
-                fadeProgress = Mathf.Clamp(fadeProgress + Time.deltaTime / 10f, 0f, 1f);
-            }
-        }
         stateMachine.curState.Update();
-    }
-
-    private void LateUpdate()
-    {
-        fadeNum = Mathf.FloorToInt(Mathf.Lerp(0, 100, fadeProgress));
-        if (fadeNum <= 50)
-        {
-            sr.color = new Color32(255, 255, 255, 255);
-            bc.enabled = true;
-        }
-        else if (fadeNum < 100)
-        {
-            sr.color = new Color32(255, 255, 255, 128);
-            bc.enabled = false;
-        }
-        else
-        {
-            Debug.Log("FadeNum greater than 100!");
-        }
     }
 
     public void SetVelocity(Vector2 _velocity)
@@ -170,8 +137,14 @@ public class PlayerController : MonoBehaviour
         return hit.collider == null;
     }
 
+    public float GetCurrentFlashAngle()
+    {
+        return currentFlashAngle;
+    }
+
     IEnumerator Dazzle()
     {
+        onDazzle?.Invoke();
         float timer = 0f;
         while (timer <= 0.02f)
         {
