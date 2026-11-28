@@ -17,6 +17,7 @@ public class Item : MonoBehaviour, IInteractable
 
     void Awake()
     {
+        gameObject.layer = LayerMask.NameToLayer("Interactable");
         ItemName = this.name;
         Collider = GetComponent<Collider2D>();
         sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
