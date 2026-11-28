@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
                 embodieds.Add(target);
             }
         }
-        foreach (GameObject e in embodieds)
+        foreach (GameObject e in embodieds)//从列表中移除已实体化物品
         {
             DelTarget(e);
         }

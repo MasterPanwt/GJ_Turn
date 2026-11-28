@@ -7,6 +7,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     public Collider2D Collider { get; private set; }
     private Transform open;
     private Transform close;
+    private bool isClosed = true;
     public void Awake()
     {
         Collider = GetComponent<Collider2D>();
@@ -21,15 +22,21 @@ public class DoorInteractable : MonoBehaviour, IInteractable
     }
     public void Interact(PlayerInteractor player)
     {
-        if(close.gameObject)
+        if(isClosed)
         {
+            Debug.Log("Open");
             open.gameObject.SetActive(true);
-            open.gameObject.SetActive(false);
+            close.gameObject.SetActive(false);
+            isClosed = false;
+            Collider.isTrigger = true;
         }
         else
         {
+            Debug.Log("Close");
             open.gameObject.SetActive(false);
             close.gameObject.SetActive(true);
+            isClosed =true;
+            Collider.isTrigger = false;
         }
     }
 }
