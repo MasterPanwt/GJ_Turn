@@ -41,7 +41,7 @@ public class ScreenFader : MonoBehaviour
     //淡入出实现
     public IEnumerator Fade(float finalAlpha , CanvasGroup canvasGroup)
     {
-        //当最后透明度变到最终时停下，第二个参数时持续事件，Wait函数是当执行完后才返回
+        //当最后透明度变到最终时停下，第二个参数时持续时间，Wait函数是当执行完后才返回
         yield return canvasGroup.DOFade(finalAlpha,fadeDuration).WaitForCompletion();
     }
 

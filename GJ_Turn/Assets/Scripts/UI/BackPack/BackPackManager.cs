@@ -7,18 +7,31 @@ public class BackPackManager : MonoBehaviour
     public GameObject backPackPanel;
     void Start()
     {
-        backPackPanel.SetActive(false);
+        CloseBackPack();
         DontDestroyOnLoad(this);
     }
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.B))
         {
-            backPackPanel.SetActive(true);
+            OpenBackPack();
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            backPackPanel.SetActive(false);
+            CloseBackPack();
         }
     }
+
+    private void OpenBackPack()
+    {
+        backPackPanel.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    private void CloseBackPack()
+    {
+        backPackPanel.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
 }

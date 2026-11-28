@@ -8,6 +8,8 @@ public class BackPackUI : MonoBehaviour
 {
     public static BackPackUI Instance {get ;private set;}
 
+    private GameObject[] backPackItems = new GameObject[6]; //六个空格
+
     private void Awake()
     {
         if (Instance == null)
@@ -23,16 +25,21 @@ public class BackPackUI : MonoBehaviour
             backPackItems[i] = transform.GetChild(i).gameObject;
         }
     }
-    private GameObject[] backPackItems = new GameObject[6]; //六个空格
-
+    
     //public Item Item; //测试用物体后面会加上交互系统
 
 
     void Start()
     {
+        SwapItem();
         //this.gameObject.SetActive(false);
         
         //SetItem(Item); //测试用函数
+    }
+
+    void Update()
+    {
+        
     }
 
     //遍历位置然后找到空位(测试成功)
@@ -65,10 +72,18 @@ public class BackPackUI : MonoBehaviour
     //半成品
     private void SwapItem()
     {
-        GameObject backPackIcon = backPackItems[0];
-        while (backPackIcon.GetComponent<Image>().sprite == null)
+        for (int i = 0 ; i < 5 ; i ++)
         {
-            backPackIcon = backPackItems[0];
+            if (backPackItems[i].GetComponent<Image>().sprite == null && backPackItems[i+1].GetComponent<Image>().sprite != null )
+            {
+                Debug.Log("交换");
+                Vector3 temp = backPackItems[i].transform.position;
+                backPackItems[i].transform.position = backPackItems[i + 1].transform.position ;
+                backPackItems[i + 1 ].transform.position = temp ;
+                GameObject tempObj = backPackItems[i];
+                backPackItems[i] = backPackItems[i + 1];
+                backPackItems[i + 1] = tempObj; 
+            }
         }
     }
 
