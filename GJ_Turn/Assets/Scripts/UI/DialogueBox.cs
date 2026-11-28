@@ -17,6 +17,9 @@ public class DialogueBox : MonoBehaviour
     //要关闭的面板
     public GameObject HUD;
     public GameObject Inventory;
+    public GameObject InteractCheck;
+    public GameObject Interactor;
+    public Rigidbody2D rbPlayer ;
 
     // 是否正在对话
     private bool isDialogue = false;
@@ -48,7 +51,7 @@ public class DialogueBox : MonoBehaviour
         {
             Debug.Log("正在对话");
             // 检测鼠标左键是否按下
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 break;
             }
@@ -78,6 +81,9 @@ public class DialogueBox : MonoBehaviour
         Debug.Log("开始对话");
         isDialogue = true;
         dialoguePanel.SetActive(true);
+        rbPlayer.constraints = RigidbodyConstraints2D.FreezeAll;
+        InteractCheck.SetActive(false);
+        Interactor.SetActive(false);
         HUD.SetActive(false);
         Inventory.SetActive(false);
     }
@@ -86,6 +92,9 @@ public class DialogueBox : MonoBehaviour
         Debug.Log("结束对话");
         isDialogue = false;
         dialoguePanel.SetActive(false);
+        rbPlayer.constraints = RigidbodyConstraints2D.None;
+        InteractCheck.SetActive(true);
+        Interactor.SetActive(true);
         HUD.SetActive(true);
         Inventory.SetActive(true);
     }
