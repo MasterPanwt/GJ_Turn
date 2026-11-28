@@ -21,7 +21,7 @@ public class XuHuaZhiUI : MonoBehaviour
         XHZ_Value = XHZ_Image.fillAmount ;
     }
 
-     public IEnumerator HealAnimation(float targetFill)
+    public IEnumerator HealAnimation(float targetFill)
     {
         targetFill = Mathf.Clamp(targetFill , 0 , 1);
 

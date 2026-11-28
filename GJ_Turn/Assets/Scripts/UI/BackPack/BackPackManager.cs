@@ -14,7 +14,16 @@ public class BackPackManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.B))
         {
-            OpenBackPack();
+            if(!backPackPanel.activeInHierarchy)
+            {
+                Debug.Log("打开背包");
+                OpenBackPack();
+            }
+            else
+            {
+                CloseBackPack();
+            }
+            
         }
         if(Input.GetKeyDown(KeyCode.Escape))
         {

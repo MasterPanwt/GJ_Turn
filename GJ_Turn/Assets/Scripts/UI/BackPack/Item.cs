@@ -24,7 +24,7 @@ public class Item : MonoBehaviour, IInteractable
 
     public void Interact(PlayerInteractor player)
     {
-        BackPackUI.Instance.SetItem(this);
+        BackPackUI.Instance.SetItem(this.gameObject);
         GameObject.Destroy(this.gameObject);
     }
 
