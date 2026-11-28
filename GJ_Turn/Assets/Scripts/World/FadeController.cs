@@ -19,7 +19,8 @@ public class FadeController : MonoBehaviour
         if (!_collider)
         {
             _collider = GetComponent<Collider2D>();
-            _collider.enabled = false;
+            _collider.enabled = true;
+            _collider.isTrigger = true;
         }
         if (!_collider)
         {
@@ -62,8 +63,13 @@ public class FadeController : MonoBehaviour
     {
         float from = progress;
         float travel = Mathf.Abs( progress - to);
-        if(travel < 0.0001f)yield break;//到达目标时候退出协程
-
+        if (travel < 0.0001f)
+        {
+            _collider.isTrigger = false;
+            Apply(progress);
+            yield break;
+        }
+            
         float elapsed = 0f;//已经过去的时间
         float need = travel * fullduration;//需要的时间
 
