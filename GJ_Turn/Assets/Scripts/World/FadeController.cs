@@ -16,24 +16,22 @@ public class FadeController : MonoBehaviour
 
     private void Awake()
     {
-        if (!_collider)
-        {
-            _collider = GetComponent<Collider2D>();
-            _collider.enabled = true;
-            _collider.isTrigger = true;
-        }
-        if (!_collider)
+        _collider = GetComponent<Collider2D>();
+        if (_collider == null)
         {
             Debug.LogError($"[{name}] 没有 Collider2D", this);
             this.enabled = false;
         }
-        if(!sr)sr = GetComponent<SpriteRenderer>();
-        if(!sr)
+        _collider.enabled = true;
+        _collider.isTrigger = true;
+        sr = GetComponent<SpriteRenderer>();
+        if(sr == null)
         {
             Debug.LogError($"[{name}] 没有 SpriteRenderer", this);
             this.enabled = false; 
         }
     }
+
     private void Start()
     {
         if (player == null)
@@ -65,7 +63,6 @@ public class FadeController : MonoBehaviour
         float travel = Mathf.Abs( progress - to);
         if (travel < 0.0001f)
         {
-            _collider.isTrigger = false;
             Apply(progress);
             yield break;
         }
@@ -85,6 +82,14 @@ public class FadeController : MonoBehaviour
     }
     public void Apply(float val)//改变不透明度
     {
+        if (val == 1f)
+        {
+            _collider.isTrigger = false;
+        }
+        else
+        {
+            _collider.isTrigger = true;
+        }
         float a = Mathf.Lerp(128f / 255f, 1f, Mathf.Clamp01(val));
         Color c = sr.color;
         c.a = a;

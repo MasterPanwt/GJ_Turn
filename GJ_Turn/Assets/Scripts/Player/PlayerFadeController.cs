@@ -8,12 +8,14 @@ public class PlayerFadeController : MonoBehaviour
     private float fadeProgress = 0f;
     private SpriteRenderer sr;
     private CapsuleCollider2D cc;
+    private PlayerInteractor pi;
     private readonly List<FadeController> fadeControllers = new List<FadeController>();
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         cc = GetComponent<CapsuleCollider2D>();
+        pi = GetComponentInChildren<PlayerInteractor>();
     }
 
     private void Update()
@@ -26,9 +28,9 @@ public class PlayerFadeController : MonoBehaviour
                 fadeControllers.RemoveAt(i);
                 continue;
             }
-            if (fc.progress < 1f)
+            if (fc.tag == "SpecialFadeObject" && fc.progress < 1f)
             {
-                fadeProgress = Mathf.Clamp(fadeProgress + Time.deltaTime / 10f, 0f, 1f);
+                ChangeFadeProgress(Time.deltaTime / 2.4f);
             }
         }
     }
@@ -41,12 +43,14 @@ public class PlayerFadeController : MonoBehaviour
             sr.sortingOrder = 5;
             sr.color = new Color32(255, 255, 255, 255);
             cc.isTrigger = false;
+            pi.canInteract = true;
         }
         else if (fadeNum < 100)
         {
             sr.sortingOrder = 6;
             sr.color = new Color32(255, 255, 255, 128);
             cc.isTrigger = true;
+            pi.canInteract = false;
         }
         else
         {
@@ -70,5 +74,10 @@ public class PlayerFadeController : MonoBehaviour
         {
             fadeControllers.Remove(fc);
         }
+    }
+
+    public void ChangeFadeProgress(float val)
+    {
+        fadeProgress = Mathf.Clamp(fadeProgress + val, 0f, 1f);
     }
 }

@@ -147,7 +147,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.35}
-  m_Size: {x: 1.95, y: 0.4}
+  m_Size: {x: 1, y: 0.4}
   m_Direction: 1
 --- !u!50 &9183789650911198635
 Rigidbody2D:
@@ -190,7 +190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   isFlashOn: 0
-  isDazzle: 0
+  onDazzle:
+    m_PersistentCalls:
+      m_Calls: []
   flash: {fileID: 7747959399714169522}
   spotlight: {fileID: 2981423872320524541}
 --- !u!114 &5061869750918086411
@@ -804,3 +806,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactPanel: {fileID: 6136276595018550760}
   radius: 1
+  canInteract: 0

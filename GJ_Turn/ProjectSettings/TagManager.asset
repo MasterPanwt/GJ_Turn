@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Open
   - Close
+  - SpecialFadeObject
   layers:
   - Default
   - TransparentFX

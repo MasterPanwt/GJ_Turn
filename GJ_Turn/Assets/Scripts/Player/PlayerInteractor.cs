@@ -13,13 +13,13 @@ public class PlayerInteractor : MonoBehaviour
     [SerializeField] float radius = 0.5f;//交互半径
     LayerMask interactableMask;
 
-    public bool canInterct;
+    public bool canInteract;
 
 
     private void Awake()
     {
         interactableMask = LayerMask.GetMask("Interactable");
-        canInterct = true ;//默认是可以交互
+        canInteract = true ;//默认是可以交互
     }
 
 
@@ -28,7 +28,7 @@ public class PlayerInteractor : MonoBehaviour
         IInteractable hit = TryGetInteractable();
 
         // 如果得到最近可交互物，就执行交互方法
-        if (hit != null && canInterct)
+        if (hit != null && canInteract)
         {
             OpenInteractPanel();
             if (Input.GetKeyDown(KeyCode.E))

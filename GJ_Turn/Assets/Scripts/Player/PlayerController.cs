@@ -6,7 +6,13 @@ using UnityEngine.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum Direction
+    {
+        Up, Down, Left, Right
+    }
+
     public float moveSpeed = 4f;
+    public Direction playerDirection { get; private set; }
     public bool isFlashOn = false;
     private int batteryCnt = 100;  // Only for testing
     private float dazzleTimer = 0f;
@@ -55,6 +61,23 @@ public class PlayerController : MonoBehaviour
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
         anim.SetInteger("Horizontal", (int)Input.GetAxisRaw("Horizontal"));
         anim.SetInteger("Vertical", (int)Input.GetAxisRaw("Vertical"));
+        // 为方便Mirror检测，此处PlayerDirection均为实际方向的相反值
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Front"))
+        {
+            playerDirection = Direction.Up;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Back"))
+        {
+            playerDirection = Direction.Down;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Left"))
+        {
+            playerDirection = Direction.Right;
+        }
+        else
+        {
+            playerDirection = Direction.Left;
+        }
         if (Input.GetKeyDown(KeyCode.F))
         {
             isFlashOn = !isFlashOn;
