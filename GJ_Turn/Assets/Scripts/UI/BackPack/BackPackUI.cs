@@ -8,7 +8,7 @@ public class BackPackUI : MonoBehaviour
 {
     public static BackPackUI Instance {get ;private set;}
 
-    private GameObject[] backPackItems = new GameObject[6]; //六个空格
+    public GameObject[] backPackItems = new GameObject[6]; //六个空格
 
     private void Awake()
     {
@@ -19,10 +19,6 @@ public class BackPackUI : MonoBehaviour
         else if (Instance != this)
         {
             Destroy(gameObject);
-        }
-        for (int i = 0 ; i < this.transform.childCount ; i++) //添加到数组内
-        {
-            backPackItems[i] = transform.GetChild(i).gameObject;
         }
     }
     

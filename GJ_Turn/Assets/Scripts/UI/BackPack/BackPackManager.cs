@@ -5,6 +5,7 @@ using UnityEngine;
 public class BackPackManager : MonoBehaviour
 {
     public GameObject backPackPanel;
+
     void Start()
     {
         CloseBackPack();

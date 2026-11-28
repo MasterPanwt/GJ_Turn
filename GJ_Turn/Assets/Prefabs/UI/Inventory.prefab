@@ -251,7 +251,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &9022916948246386100
 MonoBehaviour:
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 2104204164469448216}
   - component: {fileID: 373260999180731224}
   m_Layer: 5
-  m_Name: GameObjectImage (4)
+  m_Name: GameObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ca2c79b665ff1a44897a3a1b32f4162f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -619,7 +619,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1054697360294318073}
+  m_TargetGraphic: {fileID: 5914681128171879017}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 2778988263046231502}
   - component: {fileID: 6282191298535203189}
   m_Layer: 5
-  m_Name: GameObjectImage (5)
+  m_Name: GameObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -770,7 +770,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1054697360294318073}
+  m_TargetGraphic: {fileID: 6881135616541363223}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -797,7 +797,6 @@ GameObject:
   - component: {fileID: 6280695111171099500}
   - component: {fileID: 6117475050208408135}
   - component: {fileID: 7086811485638584307}
-  - component: {fileID: 3510118319934880565}
   m_Layer: 5
   m_Name: BackPackImage
   m_TagString: Untagged
@@ -868,18 +867,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3510118319934880565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843359215096608577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2697db93758d0f42ba9f68a5c2356d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4031770559899509342
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,7 +881,7 @@ GameObject:
   - component: {fileID: 4127842603624328082}
   - component: {fileID: 3449899481911818479}
   m_Layer: 5
-  m_Name: GameObjectImage (3)
+  m_Name: GameObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1015,7 +1002,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1054697360294318073}
+  m_TargetGraphic: {fileID: 2452237791464296766}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1118,6 +1105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5123978851186850300}
   - component: {fileID: 453333269974035286}
+  - component: {fileID: 2307314442719540199}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -1158,6 +1146,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backPackPanel: {fileID: 8855682639021433069}
+--- !u!114 &2307314442719540199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207431330497324985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2697db93758d0f42ba9f68a5c2356d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backPackItems:
+  - {fileID: 7626528561095485606}
+  - {fileID: 6719671964761194833}
+  - {fileID: 8804974716075041191}
+  - {fileID: 4031770559899509342}
+  - {fileID: 2001746174894523803}
+  - {fileID: 3497916123651144121}
 --- !u!1 &5510408837553080801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,7 +1313,7 @@ GameObject:
   - component: {fileID: 7233618129193944334}
   - component: {fileID: 118383957559098802}
   m_Layer: 5
-  m_Name: GameObjectImage (1)
+  m_Name: GameObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1359,7 +1366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3265f62423a778840b3337580a5cd3db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1409,7 +1416,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1054697360294318073}
+  m_TargetGraphic: {fileID: 1453626956950116077}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2088,7 +2095,7 @@ GameObject:
   - component: {fileID: 475997807615649593}
   - component: {fileID: 341241666748635491}
   m_Layer: 5
-  m_Name: GameObjectImage (2)
+  m_Name: GameObjectImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2141,7 +2148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ed326973993c92c4e9a7879907d414b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2209,7 +2216,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1054697360294318073}
+  m_TargetGraphic: {fileID: 4042561949614604488}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -2242,7 +2249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1756031983065840451
 RectTransform:
   m_ObjectHideFlags: 0
