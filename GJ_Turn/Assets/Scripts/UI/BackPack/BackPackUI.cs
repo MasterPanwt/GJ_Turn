@@ -64,6 +64,8 @@ public class BackPackUI : MonoBehaviour
         myBackPackItem.name = item.name;
         //将空格的图片换成物品的
         back.GetComponent<Image>().sprite = item.sprite;
+        //删除该物品
+        Destroy(gameObjectItem);
     }
 
     //半成品

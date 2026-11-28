@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
-public class Item : MonoBehaviour, IInteractable
+public class Item : MonoBehaviour//, IInteractable
 {
     [HideInInspector]
     public string ItemName ;
@@ -22,11 +22,12 @@ public class Item : MonoBehaviour, IInteractable
         Collider = GetComponent<Collider2D>();
         sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
     }
-
+/*
+    此处接口移到自己的交互脚本，这里只是提供数据的类
     public void Interact(PlayerInteractor player)
     {
         BackPackUI.Instance.SetItem(this.gameObject);
         GameObject.Destroy(this.gameObject);
     }
-
+*/
 }

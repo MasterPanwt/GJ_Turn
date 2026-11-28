@@ -9,7 +9,7 @@ public class TestInteact : MonoBehaviour
     public GameObject item;
     void Start()
     {
-        interactable = item.GetComponent<Item>();
+        
     }
 
     void Update()
